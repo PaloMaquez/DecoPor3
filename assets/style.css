@@ -11,7 +11,7 @@ html{
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
-    background-color: #475E4C ;
+    background-color: transparent ;
     font-family: 'Kaisei Decol', serif;
 }
 .logo img{
@@ -52,7 +52,7 @@ html{
         right: 0px;
         height: 92vh;
         top:7vh;
-        background-color: #475E4C;
+        background-color: transparent;
         display: flex;
         flex-direction: column;
         align-items: center;
