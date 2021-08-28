@@ -35,9 +35,6 @@ font-family: 'Kaisei Decol', serif;
     padding: 0.5rem 1rem;
     font-size: 1.1em;
 }
-.nav-links ul li a:hover {
-    background: tomato;
-}
 .burger{
     display: none;
     cursor: pointer;
