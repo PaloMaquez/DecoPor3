@@ -8,18 +8,24 @@ font-family: 'Kaisei Decol', serif;
     box-sizing: border-box;
 }
 /*-----MENU-----*/
-.logo-nav{
+nav{
     display: flex;
-    margin: 0px;
+    margin:10px;
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
     background-color: transparent ;
-    font-family: 'Kaisei Decol', serif;
+    font-family: 'Louis George Café';
+    font-size: 1.1em;
+    @font-face {
+        font-family: 'Louis George Café';
+        src: url(https://www.dafont.com/louis-george-caf.font?psize=xs);
+    }
 }
 .logo img{
-    width: 7%;
+    width: 8%;
     margin-left: 20px;
+    margin-top: 10px;
 }
 .nav-links{
     display: flex;
@@ -33,7 +39,11 @@ font-family: 'Kaisei Decol', serif;
     text-decoration: none;
     letter-spacing: 3px;
     padding: 0.5rem 1rem;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.nav-links a:hover{
+    color: #D3A687;
 }
 .burger{
     display: none;
@@ -48,21 +58,24 @@ font-family: 'Kaisei Decol', serif;
 
 /*-----@MEDIA-----*/
 @media screen and (max-width:768px){
-    /* body{
+    body{
         overflow-x: hidden;
-    } */
+    }
     .nav-links{
         position: absolute;
         right: 0px;
         height: 92vh;
         top:7vh;
-        background-color: #Ab6532    ;
+        background-color: #475E4C ;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 40%;
         transform: translate(100%);
         transition: transform 0.5s ease-in;
+    }
+    .nav-links a {
+        color: #B6B99A ;
     }
     .nav-links li{
         opacity: 1;
