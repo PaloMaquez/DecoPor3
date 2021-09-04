@@ -56,6 +56,32 @@ nav{
     background-color: black;
 }
 
+/*-----SPLASH-----*/
+.splash{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 10vw;
+}
+
+.splash__text-container{
+    width: 40vw;
+    background-color: pink;
+}
+
+.splash__img-container{
+    width: 60vw;
+    background-color: #475E4C;
+}
+
+.splash__text-container--inner{
+    width: 60%;
+    text-align: center;
+}
+
+.splash__text{
+    text-align: left;
+}
+
 /*-----@MEDIA-----*/
 @media screen and (max-width:768px){
     body{
