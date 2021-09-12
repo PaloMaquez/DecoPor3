@@ -239,7 +239,7 @@ ul{
   margin-left: 10%;
   margin-top: 5%;
   background: #fff;
-  box-shadow: 0px 14px 80px #475e4c73;
+  box-shadow: 0px 14px 80px rgba(0, 0, 0, 0.575);
   padding: 25px;
   border-radius: 25px;
   height: 400px;
@@ -290,7 +290,7 @@ ul{
   padding: 15px 35px;
   border-radius: 50px;
   color: white;
-  box-shadow: 0px 14px 80px rgba(252, 56, 56, 0.4);
+  box-shadow: 0px 14px 80px black(252, 56, 56, 0.4);
   text-decoration: none;
   justify-content: center;
   text-align: center;
@@ -384,9 +384,9 @@ ul{
   @media screen and (max-width: 768px) {
     .blog-slider__pagination {
       transform: translateX(-50%);
-      left: 50% !important;
+      left: 50% ;
       top: 205px;
-      width: 100% !important;
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
