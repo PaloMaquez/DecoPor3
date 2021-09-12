@@ -207,6 +207,12 @@ margin-right: 10%;
         height: 30vw;
         justify-content: space-evenly;
     }
+    .us__info-container{
+        flex-direction: column;
+    }
+    .us__info-img2-margin{
+        margin: 0 20vw 10vh 0;
+    }
 }
 .nav-active{
     transform: translateX(0%);
