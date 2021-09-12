@@ -2,6 +2,10 @@
 font-family: 'Grand Hotel', cursive;
 font-family: 'Kaisei Decol', serif;
 */
+:root {
+    --main-padding: 20px 5vw;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -57,7 +61,7 @@ nav{
 }
 
 .main {
-    padding: 20px 3vw;
+    padding: var(--main-padding);
 }
 
 /*-----SPLASH-----*/
@@ -126,6 +130,33 @@ nav{
     height: 100%;
     display: flex;
     align-items: center;
+}
+
+/***NOSOTRAS***/
+
+.us__info-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.us__info-img1-margin{
+    margin: 0 20vw 10vh 0;
+}
+
+.us__info-img2-margin{
+    margin: 0 0 10vh 20vh;
+}
+
+.us__info{
+    margin-bottom: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.us__info-title{
+    font-size: 50px;
+    margin-bottom: 10vw;
 }
 
 /*-----@MEDIA-----*/
