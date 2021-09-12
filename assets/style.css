@@ -2,6 +2,10 @@
 font-family: 'Playfair Display', serif;
 font-family: 'Kaisei Decol', serif;
 */
+:root {
+    --main-padding: 20px 5vw;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -52,11 +56,15 @@ nav{
     background-color: black;
 }
 
+.main {
+    padding: var(--main-padding);
+}
+
 /*-----SPLASH-----*/
 .splash{
     display: flex;
     justify-content: space-evenly;
-    padding: 20px 10vw;
+    height: 80vh;
 }
 
 .splash__text-container{
@@ -92,6 +100,75 @@ border-radius: 300px;
 margin-right: 10%;
 }
 
+.values{
+    padding-top: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.value{
+    background-color: #475E4C;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    font-size: 1.7vw;
+    text-align: center;
+
+}
+
+.value__icon{
+    width: 10vw;
+    height: 10vw;
+}
+
+.carousel__container{
+    padding-top: 10vw;
+}
+
+.carousel{
+    background-color: #e2dddd;
+    height: 25vh;
+}
+
+.carousel-inner{
+    width: 70%!important;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/***NOSOTRAS***/
+
+.us__info-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.us__info-img1-margin{
+    margin: 0 20vw 10vh 0;
+}
+
+.us__info-img2-margin{
+    margin: 0 0 10vh 20vh;
+}
+
+.us__info{
+    margin-bottom: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.us__info-title{
+    font-size: 50px;
+    margin-bottom: 10vw;
+}
+
 /*-----@MEDIA-----*/
 @media screen and (max-width:768px){
     body{
@@ -118,6 +195,23 @@ margin-right: 10%;
     }
     .burger{
         display: block;
+    }
+    .values{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .value{
+        margin: 20px;
+        width: 30vw;
+        height: 30vw;
+        justify-content: space-evenly;
+    }
+    .us__info-container{
+        flex-direction: column;
+    }
+    .us__info-img2-margin{
+        margin: 0 20vw 10vh 0;
     }
 }
 .nav-active{
