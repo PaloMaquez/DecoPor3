@@ -56,11 +56,15 @@ nav{
     background-color: black;
 }
 
+.main {
+    padding: 20px 3vw;
+}
+
 /*-----SPLASH-----*/
 .splash{
     display: flex;
     justify-content: space-evenly;
-    padding: 20px 10vw;
+    height: 80vh;
 }
 
 .splash__text-container{
@@ -80,6 +84,30 @@ nav{
 
 .splash__text{
     text-align: left;
+}
+
+.values{
+    display: flex;
+    justify-content: space-between;
+}
+
+.value{
+    background-color: #475E4C;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    font-size: 1.7vw;
+    text-align: center;
+
+}
+
+.value__icon{
+    width: 10vw;
+    height: 10vw;
 }
 
 /*-----@MEDIA-----*/
