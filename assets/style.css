@@ -99,6 +99,75 @@ height: 400px;
 border-radius: 300px;
 margin-right: 10%;
 }
+/*----Redondelitos-----*/
+.values{
+    padding-top: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.value{
+    background-color: #475E4C;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    font-size: 1.7vw;
+    text-align: center;
+
+}
+
+.value__icon{
+    width: 10vw;
+    height: 10vw;
+}
+/*-----carousel-----*/
+.carousel__container{
+    padding-top: 10vw;
+}
+
+.carousel{
+    background-color: #e2dddd;
+    height: 25vh;
+}
+
+.carousel-inner{
+    width: 70%!important;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/*-----NOSOTRAS-----*/
+
+.us__info-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.us__info-img1-margin{
+    margin: 0 20vw 10vh 0;
+}
+
+.us__info-img2-margin{
+    margin: 0 0 10vh 20vh;
+}
+
+.us__info{
+    margin-bottom: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.us__info-title{
+    font-size: 50px;
+    margin-bottom: 10vw;
+}
 
 .values{
     padding-top: 10vw;
@@ -306,10 +375,10 @@ ul{
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
-	background-color: #ffffff;
+	background-color: #D2C3BE;
 }
 .footer p {
-    color: #475E4C;
+    color: #D2C3BE;
     margin-top: 20%;
     font-weight: 700;
 }
@@ -333,7 +402,7 @@ ul{
   margin-left: 10%;
   margin-top: 5%;
   background: #fff;
-  box-shadow: 0px 14px 80px #475e4c73;
+  box-shadow: 0px 14px 80px rgba(0, 0, 0, 0.575);
   padding: 25px;
   border-radius: 25px;
   height: 400px;
@@ -384,7 +453,7 @@ ul{
   padding: 15px 35px;
   border-radius: 50px;
   color: white;
-  box-shadow: 0px 14px 80px rgba(252, 56, 56, 0.4);
+  box-shadow: 0px 14px 80px black(252, 56, 56, 0.4);
   text-decoration: none;
   justify-content: center;
   text-align: center;
@@ -478,9 +547,9 @@ ul{
   @media screen and (max-width: 768px) {
     .blog-slider__pagination {
       transform: translateX(-50%);
-      left: 50% !important;
+      left: 50% ;
       top: 205px;
-      width: 100% !important;
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
