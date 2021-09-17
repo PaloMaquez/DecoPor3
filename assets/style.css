@@ -19,6 +19,11 @@ font-family: 'Kaisei Decol', serif;
     /*fonts*/
     --title-font:'Playfair Display', serif;
     --text-font:'Kaisei Decol', serif;
+    /*fonts-desktop*/
+    --title-desktop-size: 50px;
+    --text-desktop-size: 17px;
+    /*fonts-desktop*/
+
 }
 
 *{
