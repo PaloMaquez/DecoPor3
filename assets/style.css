@@ -4,6 +4,7 @@ font-family: 'Kaisei Decol', serif;
 */
 :root {
     --main-padding: 20px 5vw;
+    /*colores*/
     --green-100: #B6B99A;  /*Mas claro*/
     --green-200: #B6b478 ;
     --green-300: #89984d;
@@ -13,6 +14,11 @@ font-family: 'Kaisei Decol', serif;
     --terracotta-100: #D3A687;
     --terracotta-100: #B19685;
     --terracotta-100: #Ab6532;/*Mas oscuro*/
+    --yellow-100: #D9AD28;
+    --yellow-200: #B4a65f;  
+    /*fonts*/
+    --title-font:'Playfair Display', serif;
+    --text-font:'Kaisei Decol', serif;
 }
 
 *{
