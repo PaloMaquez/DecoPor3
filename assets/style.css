@@ -4,6 +4,15 @@ font-family: 'Kaisei Decol', serif;
 */
 :root {
     --main-padding: 20px 5vw;
+    --green-100: #B6B99A;  /*Mas claro*/
+    --green-200: #B6b478 ;
+    --green-300: #89984d;
+    --green-300: #475E4C; /*Mas oscuro*/
+    --light-blue: #A6bdb2;
+    --terracotta-100: #D2C3BE;/*Mas claro*/
+    --terracotta-100: #D3A687;
+    --terracotta-100: #B19685;
+    --terracotta-100: #Ab6532;/*Mas oscuro*/
 }
 
 *{
