@@ -20,17 +20,17 @@ font-family: 'Kaisei Decol', serif;
     --title-font:'Playfair Display', serif;
     --text-font:'Kaisei Decol', serif;
     /*fonts-pc (desktop & notebook)*/
-    --title-desktop-size: 50px;
+    --title-desktop-size: 60px;
     --subtitle-desktop-size: 30px;
     --text-desktop-size: 17px;
     /*fonts-tablet*/
-    --title-desktop-size: 40px;
-    --subtitle-desktop-size: 25px;
-    --text-desktop-size: 15px;
+    --title-tablet-size: 40px;
+    --subtitle-tablet-size: 25px;
+    --text-tablet-size: 15px;
     /*fonts-mobile*/
-    --title-desktop-size: 35px;
-    --subtitle-desktop-size: 20px;
-    --text-desktop-size: 13px;
+    --title-mobile-size: 35px;
+    --subtitle-mobile-size: 20px;
+    --text-mobile-size: 13px;
 }
 *{
     margin: 0px;
@@ -592,4 +592,21 @@ ul{
       width: 30px;
     }
   }
-  
+  /*-----SOCIAS-----*/
+  .us__info-img1-margin-socias{
+    margin: 0 20vw 10vh 0;
+    width: 500px;
+    height: 681px;
+    margin-top: 5%;
+  }
+  .us__info-img2-margin-socias{
+    margin: 0 0 10vh 20vh;
+    width: 500px;
+    height: 681px;
+  }
+  .socias__info-title{
+    font-size: 60px;
+    margin-bottom: 10vw;
+    margin-top: 9%;
+    font-family: var(--title-font);
+  }
