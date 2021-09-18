@@ -348,7 +348,7 @@ ul{
     padding: 40px 0;
 }
 .footer-col{
-    width: 25%;
+    /* width: 20%; */
     padding: 0 15px;
 }
 .footer-col h4{
@@ -611,6 +611,13 @@ ul{
     margin-top: 9%;
   }
   .socias__info-details{
+    font-family:var(--text-font);
+    font-size: var(--text-desktop-size);
+    max-width: 50%;
+    line-height: 25pt;
+    margin-bottom: 20%;
+  }
+  .socias__info-details-2{
     font-family:var(--text-font);
     font-size: var(--text-desktop-size);
     max-width: 50%;
