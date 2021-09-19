@@ -45,6 +45,11 @@ font-family: 'Kaisei Decol', serif;
     margin-right: 1%;
 }
 
+.navbar-light .navbar-toggler{
+  color: transparent!important;
+  border-color: transparent!important;
+}
+
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
  .main {
