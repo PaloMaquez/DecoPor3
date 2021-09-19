@@ -334,6 +334,10 @@ ul{
 
 
 /*-----SOCIAS-----*/
+.socias div{
+margin: 5vw 0;
+}
+
 .socias__img-socia{
   height: 55vw;
 }
@@ -343,6 +347,10 @@ ul{
 
 .socias__igram img{
   margin: 5vw;
+}
+
+.instagram-media{
+  margin: 12px!important;
 }
 
 @media screen and (max-width: 992px) {
