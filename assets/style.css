@@ -138,10 +138,9 @@ margin-right: 10%;
     align-items: center;
 }
 
-/* TODO falta la flecha izquierda */
-/* .carousel-control-prev-icon{
-  background-image: url()!important;
-} */
+.carousel-control-prev-icon{
+  background-image: url('../img/icons/left-arrow.png')!important;
+}
 
 .carousel-control-next-icon{
   background-image: url('../img/icons/right-arrow\ 2.png')!important;
