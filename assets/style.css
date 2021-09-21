@@ -36,6 +36,7 @@ font-family: 'Kaisei Decol', serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 /*-----MENU-----*/
 
@@ -484,4 +485,70 @@ ul{
       width: 30px;
     }
   }
+  /*-----SERVICIOS-----*/
+  .jumbotron{
+    margin-bottom: 0;
+    background-image: url(../img/servicios/livingServicios.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 90vh;
+    min-height: 400px;
+    color: black;
+    padding: 10rem;
+    text-align: center;
+  }
+  .jumbotron h1 {
+    font-family:var(--title-font);
+    font-size: 150px;
+    margin-top: 9.6rem;
+  }
+  
+  .jumbotron p {
+    font-family:var(--title-font);
+    font-size: var(--subtitle-tablet-size);
+    padding-bottom: 3rem;
+    margin-top: -2.5rem;
+  }
+  .above-scroll{
+    font-family:var(--title-font);
+    font-size: var(--text-tablet-size);
+  }
+  .icon-scroll,
+  .icon-scroll:before {
+    position: absolute;
+    left: 50.8%;
+  }
+  
+  .icon-scroll
+  {
+      width: 40px;
+      height: 70px;
+      margin-left: -20px;
+      top: 90%;
+      margin-top: -35px;
+      box-shadow: inset 0 0 0 2.5px black;
+      border-radius: 25px;
+  }
+  .icon-scroll:before{
+      content: '';
+      width: 8px;
+      height: 8px;
+      background: black;
+      margin-left: -4px;
+      top: 8px;
+      border-radius: 4px;
+      animation-duration: 1.8s;
+      animation-iteration-count: infinite;
+      animation-name: scroll;
+  }
+  @keyframes scroll {
+      0% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 0;
+          transform: translateY(46px);
+      }
+  }
+
 
