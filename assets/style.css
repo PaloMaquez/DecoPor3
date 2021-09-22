@@ -551,4 +551,8 @@ ul{
       }
   }
 
-
+.container__servicios{
+  font-family: var(--text-font);
+  font-size: var(--text-desktop-size);
+  margin-top: 5%;
+}
