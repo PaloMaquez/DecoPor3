@@ -486,6 +486,18 @@ ul{
     }
   }
   /*-----SERVICIOS-----*/
+  .main__servicios{
+    padding: 25px 8vw
+  }
+  .main__servicios p{
+    line-height: 32px;
+    margin-top: -11.5px;
+  }
+  .main__servicios img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+  }
   .jumbotron{
     margin-bottom: 0;
     background-image: url(../img/servicios/livingServicios.jpg);
@@ -556,3 +568,27 @@ ul{
   font-size: var(--text-desktop-size);
   margin-top: 5%;
 }
+
+.value_service{
+  width: 10vw;
+  height: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+}
+
+.value-service__icon{
+  width: 5vw;
+  height: 5vw;
+  margin-top: -35%;
+}
+
+.value-service__p{
+font-family: var(--text-font);
+font-size:var(--text-tablet-size);
+font-weight:bold;
+margin-bottom: -10%;
+}
+
