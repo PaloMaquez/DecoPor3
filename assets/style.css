@@ -88,13 +88,26 @@ font-family: 'Kaisei Decol', serif;
     margin-left: 0;
 }
 
-.img-round{
+/* .img-round{
 width: 400px;
 height: 400px;
 border-radius: 300px;
 margin-right: 10%;
-}
 
+}
+.img-square{
+  width: 463.62px;
+  height: 618.68px;
+  left: 587.4px;
+  top: 191px;
+  border-radius: 42px;
+transform: rotate(0.5deg);
+}
+.img-oval{
+width: 442px;
+height: 642px;
+border-radius: 221px;
+} */
 .values{
     padding-top: 10vw;
     display: flex;
