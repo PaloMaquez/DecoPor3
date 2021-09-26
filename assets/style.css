@@ -614,11 +614,14 @@ margin-bottom: -10%;
   justify-content: center;
 }
 .modal-content{
-  width: 60vw!important;
-  height: 90vw;
+  width: 70vw!important;
+  height: 120vh;
 }
 .modal-body{
   padding: 1rem 0.8rem 1rem 1rem!important;
+}
+.modal-body, .row{
+  height: 100%;
 }
 .pad-r{
   padding-right: 0!important;
@@ -638,8 +641,11 @@ margin-bottom: -10%;
 }
 .basic-info{
   background-color: var(--terracotta-400);
-  padding: 12% 11%;
+  padding: 12% 8%;
   height: 96%;
+}
+.col-7, .col-5{
+  height: 100%;
 }
 .more-info{
   padding-top: 9%;
@@ -650,13 +656,19 @@ margin-bottom: -10%;
 .img-modal{
   width: 17vw;
 }
+.course-title{
+  font-size: 3vw!important;
+}
 .h6{
   font-size: 16px;
 }
 .h3{
   padding: 0.5rem 1.5rem;
-  font-size: 1.20rem!important;
+  font-size: 1.5vw!important;
   background-color: var(--terracotta-400);
+}
+.p{
+  font-size: 1.1vw;
 }
 .diff-height{
   height: 3.5%;
@@ -664,6 +676,7 @@ margin-bottom: -10%;
   padding-bottom: 0;
   padding-top: 0.6rem;
   background-color: var(--terracotta-300);
+  text-align: center;
 }
 .no-pad{
   padding: 0;
@@ -676,4 +689,36 @@ margin-bottom: -10%;
 }
 .w-100{
   width: 100%;
+}
+.height-adjust{
+  height: 3.5%;
+}
+
+@media screen and (max-width: 768px){
+  .modal-content {
+    width: 100vw !important;
+    height: 140vh;
+  }
+  .details{
+    padding: 0 3px;
+  }
+  .course-title {
+    font-size: 4.3vw!important;
+  }
+  .h6 {
+    font-size: 2.8vw!important;
+  }
+  .h3 {
+    padding: 0.5rem 1rem;
+    font-size: 3.6vw!important;
+  }
+  .p {
+    font-size: 3vw;
+  }
+  .no-pad{
+    padding: 0;
+  }
+  .no-mb{
+    margin-bottom: 0;
+  }
 }
