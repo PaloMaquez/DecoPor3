@@ -11,9 +11,9 @@ font-family: 'Kaisei Decol', serif;
     --green-300: #475E4C; /*Mas oscuro*/
     --light-blue: #A6bdb2;
     --terracotta-100: #D2C3BE;/*Mas claro*/
-    --terracotta-100: #D3A687;
-    --terracotta-100: #B19685;
-    --terracotta-100: #Ab6532;/*Mas oscuro*/
+    --terracotta-200: #D3A687;
+    --terracotta-300: #B19685;
+    --terracotta-400: #Ab6532;/*Mas oscuro*/
     --yellow-100: #D9AD28;
     --yellow-200: #B4a65f;  
     /*fonts*/
@@ -614,25 +614,111 @@ margin-bottom: -10%;
   justify-content: center;
 }
 .modal-content{
-  width: 45vw!important;
-  height: 90vw;
+  width: 70vw!important;
+  height: 120vh;
 }
-.row, .basic-info, .more-info{
+.modal-body{
+  padding: 1rem 0.8rem 1rem 1rem!important;
+}
+.modal-body, .row{
+  height: 100%;
+}
+.pad-r{
+  padding-right: 0!important;
+}
+.full-width{
+  width: 100%;
+}
+.row, .more-info{
   height: 100%;
 }
 .basic-info, .more-info{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
-  padding: 11%;
+
 }
 .basic-info{
-  background-color: var(--terracotta-100);
+  background-color: var(--terracotta-400);
+  padding: 12% 8%;
+  height: 96%;
+}
+.col-7, .col-5{
+  height: 100%;
+}
+.more-info{
+  padding-top: 9%;
 }
 .footer-info{
   width: 100%;
 }
+.img-modal{
+  width: 17vw;
+}
+.course-title{
+  font-size: 3vw!important;
+}
 .h6{
   font-size: 16px;
+}
+.h3{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5vw!important;
+  background-color: var(--terracotta-400);
+}
+.p{
+  font-size: 1.1vw;
+}
+.diff-height{
+  height: 3.5%;
+  margin-bottom: 0!important;
+  padding-bottom: 0;
+  padding-top: 0.6rem;
+  background-color: var(--terracotta-300);
+  text-align: center;
+}
+.no-pad{
+  padding: 0;
+}
+.ul{
+  padding: 0;
+}
+.details{
+  padding: 1rem 1.5rem;
+}
+.w-100{
+  width: 100%;
+}
+.height-adjust{
+  height: 3.5%;
+}
+
+@media screen and (max-width: 768px){
+  .modal-content {
+    width: 100vw !important;
+    height: 140vh;
+  }
+  .details{
+    padding: 0 3px;
+  }
+  .course-title {
+    font-size: 4.3vw!important;
+  }
+  .h6 {
+    font-size: 2.8vw!important;
+  }
+  .h3 {
+    padding: 0.5rem 1rem;
+    font-size: 3.6vw!important;
+  }
+  .p {
+    font-size: 3vw;
+  }
+  .no-pad{
+    padding: 0;
+  }
+  .no-mb{
+    margin-bottom: 0;
+  }
 }
