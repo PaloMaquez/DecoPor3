@@ -781,7 +781,7 @@ margin-bottom: -10%;
   width: 327px;
 }
 
-.product-text h1 {
+.product-text h2 {
   margin: 0 0 0 38px;
   padding-top: 52px;
   font-size: 30px;
@@ -789,12 +789,12 @@ margin-bottom: -10%;
   color: #474747;
 }
 
-.product-text h1,
+.product-text h2,
 .product-price-btn p {
   font-family: 'Bentham', serif;
 }
 
-.product-text h2 {
+.product-text h3 {
   margin: 0 0 47px 38px;
   font-size: 13px;
   font-family: var(--text-font);
