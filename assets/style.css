@@ -13,7 +13,8 @@ font-family: 'Kaisei Decol', serif;
     --terracotta-100: #D2C3BE;/*Mas claro*/
     --terracotta-200: #D3A687;
     --terracotta-300: #B19685;
-    --terracotta-400: #Ab6532;/*Mas oscuro*/
+    --terracotta-400:#dc9b7b;
+    --terracotta-500: #Ab6532;/*Mas oscuro*/
     --yellow-100: #D9AD28;
     --yellow-200: #B4a65f;  
     /*fonts*/
@@ -228,6 +229,7 @@ border-radius: 221px;
 .socias__subtitle{
   font-family: var(--title-font);
   font-size:var(--subtitle-desktop-size);
+  margin-left: 5%;
 }
 
 .socias div{
@@ -240,6 +242,8 @@ border-radius: 221px;
   }
   .socias__info{
     padding: 0 5vw;
+    line-height: 23pt;
+    text-align:justify;
   }
   
   .socias__igram img{
@@ -262,6 +266,7 @@ border-radius: 221px;
     max-width: 50%;
     line-height: 25pt;
     margin-bottom: 20%;
+    text-align: justify;
   }
   .socias__info-details-2{
     font-family:var(--text-font);
@@ -278,7 +283,14 @@ border-radius: 221px;
   .socias__sub-morgan{
     font-family: var(--title-font);
     font-size: var(--subtitle-desktop-size);
-    margin-top: -40%;
+    margin-top: -41%;
+    margin-left: 18%;
+  }
+  .socias__sub-emprende{
+    font-family: var(--title-font);
+    font-size: var(--subtitle-desktop-size);
+    margin-top: -15%;
+    margin-left: 18%;
   }
 /*-----@MEDIA-----*/
 @media screen and (max-width:768px){
@@ -382,7 +394,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: var(--terracotta-400);
+	background-color: var(--terracotta-500);
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -656,7 +668,7 @@ margin-bottom: -10%;
   font-size: var(--subtitle-desktop-size);
   font-weight: bolder;
 }
-/*** MODAL ***/
+/*----- MODAL -----*/
 
 .modal-dialog{
   max-width: 100vw!important;
@@ -690,7 +702,7 @@ margin-bottom: -10%;
 
 }
 .basic-info{
-  background-color: var(--terracotta-400);
+  background-color: var(--terracotta-500);
   padding: 12% 8%;
   height: 96%;
 }
@@ -718,7 +730,7 @@ margin-bottom: -10%;
 .h3{
   padding: 0.5rem 1.5rem;
   font-size: 1.5vw!important;
-  background-color: var(--terracotta-400);
+  background-color: var(--terracotta-500);
 }
 .p{
   font-size: 1vw;
