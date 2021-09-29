@@ -598,25 +598,39 @@ ul{
   }
 
 .container__servicios{
+  padding: var(--main-padding);
   font-family: var(--text-font);
   font-size: var(--text-desktop-size);
-  margin-top: 5%;
+  margin-top: 3%;
 }
-
+.container__servicios h4{
+  font-family: var(--title-font);
+  font-size: var(--subtitle-desktop-size);
+  color: var(--green-200);
+  font-weight: bolder;
+}
+.container__servicios span{
+  color: var(--green-00);
+}
+.values__servicios{
+  padding: 30px 4.5vw;
+  padding-top: 4vw;
+  display: flex;
+  justify-content: space-between;
+}
 .value_service{
   width: 10vw;
   height: 10vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
   text-align: center;
 }
 
 .value-service__icon{
   width: 5vw;
   height: 5vw;
-  margin-top: -35%;
+  margin-top: 35%;
 }
 
 .value-service__p{
@@ -625,8 +639,23 @@ font-size:var(--text-tablet-size);
 font-weight:bold;
 margin-bottom: -10%;
 }
-
-
+.value-service__p-fast{
+  font-family: var(--text-font);
+  font-size:var(--text-tablet-size);
+  font-weight:bold;
+  margin-left: 10%;
+  margin-bottom: -10%;
+}
+.servicios__img{
+  width: 450px;
+  height: 500px;
+  object-fit: cover;
+}
+.service__sub{
+  font-family: var(--title-font);
+  font-size: var(--subtitle-desktop-size);
+  font-weight: bolder;
+}
 /*** MODAL ***/
 
 .modal-dialog{
@@ -748,6 +777,7 @@ margin-bottom: -10%;
 }
 /*cards*/
 .wrapper {
+  display: flex;
   height: 420px;
   width: 654px;
   margin: 50px auto;
