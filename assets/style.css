@@ -43,7 +43,8 @@ font-family: 'Kaisei Decol', serif;
 .navbar{
     font-family:var(--text-font);
     font-size: 21px;
-    margin-right: 1%;
+    margin-right: 2%;
+    letter-spacing: 2.5px;
 }
 
 .navbar-light .navbar-toggler{
@@ -64,12 +65,12 @@ font-family: 'Kaisei Decol', serif;
 
 .splash__text-container{
     width: 40vw;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .splash__img-container{
     width: 60vw;
-    background-color: #475E4C;
+    /* background-color: #475E4C; */
 }
 
 .splash__text-container--inner{
@@ -87,7 +88,27 @@ font-family: 'Kaisei Decol', serif;
     line-height: 1em;
     margin-left: 0;
 }
-
+.index__button{
+  display: inline-block;
+  height: 50px;
+  width: 176px;
+  margin: 0 40px 0 75px;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 20px;
+  font-family:var(--title-font);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color:var(--green-200);
+  cursor: pointer;
+  outline: none;
+}
+.index__button :hover {
+  background-color: var(--yellow-200);
+}
 /* .img-round{
 width: 400px;
 height: 400px;
@@ -101,7 +122,6 @@ margin-right: 10%;
   left: 587.4px;
   top: 191px;
   border-radius: 42px;
-transform: rotate(0.5deg);
 }
 .img-oval{
 width: 442px;
@@ -341,7 +361,7 @@ ul{
 }
 .footer{
 	background-color: #24262b;
-  padding: 40px 0px;
+  padding: 0.5% 0;
 }
 .footer-col{
     width: 20%;
@@ -352,16 +372,17 @@ ul{
 	color: #ffffff;
 	text-transform: capitalize;
 	margin-bottom: 35px;
+  margin-top: 5%;
 	font-weight: 500;
 	position: relative;
-    font-family: 'Kaisei Decol', serif;
+  font-family: var(--text-font);
 }
 .footer-col h4::before{
 	content: '';
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #475E4C;
+	background-color: var(--terracotta-400);
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -400,8 +421,8 @@ ul{
 	background-color: #ffffff;
 }
 .footer p {
-    color:var(--green-300);
-    margin-top: 20%;
+    color:var(--terracotta-200);
+    margin-top: 10%;
     margin-left: 60%;
     font-weight: 700;
 }
@@ -724,4 +745,101 @@ margin-bottom: -10%;
   .no-mb{
     margin-bottom: 0;
   }
+}
+/*cards*/
+.wrapper {
+  height: 420px;
+  width: 654px;
+  margin: 50px auto;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 10px 24px 42px 10px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 10px 24px 42px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 10px 24px 42px 10px rgba(0, 0, 0, 0.15);
+}
+
+.product-img {
+  float: left;
+  height:420px;
+  width: 327px;
+}
+
+.product-img img {
+  border-radius: 10px 0 0 10px;
+  object-fit: cover;
+}
+
+.product-info {
+  float: left;
+  height: 420px;
+  width: 327px;
+  border-radius: 0 7px 10px 7px;
+  background-color: #ffffff;
+}
+
+.product-text {
+  height: 300px;
+  width: 327px;
+}
+
+.product-text h1 {
+  margin: 0 0 0 38px;
+  padding-top: 52px;
+  font-size: 30px;
+  margin-bottom: 5%;
+  color: #474747;
+}
+
+.product-text h1,
+.product-price-btn p {
+  font-family: 'Bentham', serif;
+}
+
+.product-text h2 {
+  margin: 0 0 47px 38px;
+  font-size: 13px;
+  font-family: var(--text-font);
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #b6b4b4;
+  letter-spacing: 0.2em;
+}
+
+.product-text p {
+  height: 115px;
+  margin: 0 0 0 38px;
+  font-family:var(--text-font);
+  color: #696969;
+  line-height: 1.7em;
+  font-size: var(--text-mobile-size);
+  font-weight: lighter;
+  overflow: hidden;
+}
+
+.product-price-btn {
+  height: 103px;
+  width: 327px;
+  margin-top: 17px;
+  position: relative;
+}
+.product-price-btn button {
+  display: inline-block;
+  height: 50px;
+  width: 176px;
+  margin: 0 40px 0 75px;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 20px;
+  font-family:var(--title-font);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color:var(--green-200);
+  cursor: pointer;
+  outline: none;
+}
+
+.product-price-btn button:hover {
+  background-color: var(--yellow-200);
 }
