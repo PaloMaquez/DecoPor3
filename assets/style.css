@@ -647,9 +647,9 @@ margin-bottom: -10%;
 .col-7, .col-5{
   height: 100%;
 }
-.more-info{
+/* .more-info{
   padding-top: 9%;
-}
+} */
 .footer-info{
   width: 100%;
 }
@@ -671,7 +671,7 @@ margin-bottom: -10%;
   background-color: var(--terracotta-400);
 }
 .p{
-  font-size: 1vw;
+  font-size: 0.9vw;
 }
 .diff-height{
   height: 3.5%;
