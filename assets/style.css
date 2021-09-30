@@ -245,9 +245,12 @@ border-radius: 221px;
     line-height: 23pt;
     text-align:justify;
   }
-  
+  .socias__igram{
+    font-family: var(--text-font);
+    font-size: var(--subtitle-mobile-size);
+  }
   .socias__igram img{
-    margin: 5vw;
+    margin: 1vw;
   }
   
   .instagram-media{
@@ -539,11 +542,11 @@ ul{
     line-height: 32px;
     margin-top: -11.5px;
   }
-  /* .main__servicios img {
+  .main__servicios img {
     margin-top: 5%;
     margin-bottom: 5%;
     width: 50%;
-  } */
+  }
   .jumbotron{
     margin-bottom: 0;
     background-image: url(../img/servicios/livingServicios.jpg);
@@ -622,13 +625,13 @@ ul{
   font-weight: bolder;
 }
 .container__servicios span{
-  color: var(--green-00);
+  color: var(--green-300);
 }
 .values__servicios{
   padding: 30px 4.5vw;
-  padding-top: 4vw;
+  padding-top: 2vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .value_service{
   width: 10vw;
@@ -649,16 +652,14 @@ ul{
 font-family: var(--text-font);
 font-size:var(--text-tablet-size);
 font-weight:bold;
-margin-bottom: -10%;
-line-height: 25pt;
-margin-bottom: 20%;
+margin-top: -50%;
 }
 .value-service__p-fast{
   font-family: var(--text-font);
   font-size:var(--text-tablet-size);
   font-weight:bold;
   margin-left: 10%;
-  margin-bottom: -10%;
+  margin-bottom: -50%;
 }
 .servicios__img{
   width: 600px;
@@ -670,8 +671,14 @@ margin-bottom: 20%;
 }
 .service__sub{
   font-family: var(--title-font);
-  font-size: var(--subtitle-desktop-size);
+  font-size: var(--title-tablet-size);
   font-weight: bolder;
+  margin-left: 35.5%;
+  margin-top: 4%;
+  
+}
+#left_img{
+  margin-left: 50%;
 }
 /*----- MODAL -----*/
 
