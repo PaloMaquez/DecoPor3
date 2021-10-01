@@ -761,6 +761,9 @@ margin-top: -50%;
 .ul{
   padding: 0;
 }
+.pad-left{
+  padding-left: 1vw;
+}
 .details{
   padding: 1rem 1.5rem;
 }
