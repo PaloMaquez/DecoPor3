@@ -112,26 +112,26 @@ font-family: 'Kaisei Decol', serif;
   background-color: var(--yellow-200);
 }
 .img-round{
-  width: 483.89px;
-  height: 482.24px;
-  left: 855.87px;
-  top: 668.79px;
+  width: 451.25px;
+  height: 452.64px;
+  left: 925.51px;
+  top: 724px;
   border-radius: 276.5px;
   transform: rotate(0.7deg);
   object-fit: cover;
 
 }
 .img-square{
-  width: 571.52px;
-  height: 540.03px;
-  left: 540.71px;
-  top: 177px;
+  width: 539.62px;
+  height: 504.74px;
+  left: 605.4px;
+  top: 264px;
   transform: rotate(0.5deg);
   object-fit: cover;
 }
 .img-oval{
-  width: 330px;
-  height: 595px;
+  width: 311px;
+  height: 570px;
   border-radius: 276.5px;
   object-fit: cover;
 } 
