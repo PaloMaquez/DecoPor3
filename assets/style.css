@@ -111,32 +111,29 @@ font-family: 'Kaisei Decol', serif;
 .index__button :hover {
   background-color: var(--yellow-200);
 }
- .img-round{
-  position: absolute;
+.img-round{
   width: 483.89px;
   height: 482.24px;
   left: 855.87px;
   top: 668.79px;
   border-radius: 276.5px;
   transform: rotate(0.7deg);
-object-fit: cover;
+  object-fit: cover;
 
 }
 .img-square{
-position: absolute;
-width: 571.52px;
-height: 540.03px;
-left: 540.71px;
-top: 177px;
-transform: rotate(0.5deg);
-object-fit: cover;
+  width: 571.52px;
+  height: 540.03px;
+  left: 540.71px;
+  top: 177px;
+  transform: rotate(0.5deg);
+  object-fit: cover;
 }
 .img-oval{
-  position: absolute;
   width: 330px;
   height: 595px;
   border-radius: 276.5px;
-object-fit: cover;
+  object-fit: cover;
 } 
 .values{
     padding-top: 10vw;
