@@ -230,12 +230,12 @@ font-family: 'Kaisei Decol', serif;
   font-family: var(--title-font);
   font-size: var(--title-desktop-size);
   margin-left: 45%;
-}
-
-.socias__subtitle{
-  font-family: var(--title-font);
-  font-size:var(--subtitle-desktop-size);
-  margin-left: 5%;
+  width: 592px;
+  height: 172px;
+  left: 614px;
+  top: 275px;
+  font-size: 96px;
+  line-height: 130px;
 }
 
 .socias div{
@@ -244,12 +244,17 @@ font-family: 'Kaisei Decol', serif;
   
   .socias__img-socia{
     height: 36vw;
-    margin-top: -5%;
+    margin-top: -1%;
   }
   .socias__info{
+    font-family: var(--title-font);
     padding: 0 5vw;
     line-height: 23pt;
-    text-align:justify;
+    width: 615px;
+    height: 345px;
+    font-size: var(--text-desktop-size);
+    line-height: 32px;
+    
   }
   .socias__igram{
     font-family: var(--text-font);
@@ -294,12 +299,24 @@ font-family: 'Kaisei Decol', serif;
     font-size: var(--subtitle-desktop-size);
     margin-top: -41%;
     margin-left: 18%;
+    width: 362px;
+  height: 47px;
+  left: 762px;
+  top: 514px;
+  font-size: 48px;
+  line-height: 64px;
   }
   .socias__sub-emprende{
     font-family: var(--title-font);
     font-size: var(--subtitle-desktop-size);
     margin-top: -15%;
     margin-left: 18%;
+    width: 362px;
+  height: 47px;
+  left: 762px;
+  top: 514px;
+  font-size: 48px;
+  line-height: 64px;
   }
 /*-----@MEDIA-----*/
 @media screen and (max-width:768px){
