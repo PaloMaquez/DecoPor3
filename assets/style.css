@@ -461,6 +461,10 @@ ul{
 }
 /*-----CURSOS-----*/
 
+.h1__cursos{
+  font-family:var(--title-font);
+  font-size: var(--title-desktop-size);
+}
 
 @media screen and (max-width: 992px) {
     .blog-slider {
