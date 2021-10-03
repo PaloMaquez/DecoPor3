@@ -288,6 +288,7 @@ font-size: var(--text-desktop-size);
 .us__info-title-Gladys{
   font-family: var(--title-font);
   font-size: var(--title-desktop-size);
+  margin-right: 55%;
 }
 .position-nosotras_img-gladys{
   margin-left: 50%;
