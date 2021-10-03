@@ -580,6 +580,9 @@ ul{
   font-size: var(--title-desktop-size);
   margin-left: 45%;
 }
+.espacios-comerciales{
+  top: -10%;
+}
 
 @media screen and (max-width: 992px) {
     .blog-slider {
