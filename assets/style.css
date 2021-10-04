@@ -218,18 +218,6 @@ p{
 .carousel-control-next-icon{
   background-image: url('../img/icons/right-arrow\ 2.png')!important;
 }
-.quote-right{
-  left: 1268px;;
-}
-.carousel__p{
-  font-family: var(--text-font);
-  font-size: var(--text-desktop-size);
-  
-}
-.carousel-img{
-  object-fit: cover;
-  width: 90%;
-}
 
 /***NOSOTRAS***/
 
@@ -256,23 +244,6 @@ p{
 .us__info-title{
     font-size: 50px;
     margin-bottom: 10vw;
-}
-.us__info-title-Gladys{
-  font-family: var(--title-font);
-  font-size: var(--title-desktop-size);
-  margin-left: 99%;
-}
-#position-nosotras_img-gladys{
-  margin-left: 55%;
-}
-#us__info-details-gladys{
-  width: 362px;
-  height: 105px;
-  margin-left: 55%;
-  margin-top: 8%;
-  font-family: var(--text-font);
-  font-size: var(--text-desktop-size);
-  line-height: 32px;
 }
 
 /*-----SOCIAS-----*/
