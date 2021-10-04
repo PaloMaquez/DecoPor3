@@ -919,15 +919,26 @@ margin-top: -50%;
   width: 60%;
 }
 .service__sub{
-  font-family: var(--title-font);
-  font-size: var(--title-tablet-size);
-  font-weight: bolder;
-  margin-left: 35.5%;
+  font-family: var(--text-font);
+  font-size: var(--subtitle-desktop-size);
+  margin-left: 30%;
   margin-top: 4%;
-  
+  margin-bottom: 4%;
 }
 #left_img{
   margin-left: 50%;
+}
+.left_p{
+  font-family: var(--text-font);
+  font-size: var(--text-desktop-size);
+  width: 28.75vw;
+  height: 5.10vw;
+  top: 2065px;
+  line-height: 32px;
+}
+.main__servicios span{
+  color:var(--terracotta-500);
+  font-weight: bolder;
 }
 /*----- MODAL -----*/
 
