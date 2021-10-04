@@ -579,10 +579,27 @@ ul{
   font-family:var(--title-font);
   font-size: var(--title-desktop-size);
   margin-left: 45%;
+  margin-top: 5%;
 }
-.espacios-comerciales{
-  top: -10%;
+.cursos_info{
+  padding: 25px 8vw;
+  font-size: var(--text-desktop-size);
+  text-align: justify;
 }
+.cursos_info span{
+  color: var(--terracotta-500);
+  font-size: 25px;
+  font-weight: bolder;
+}
+.value__incriociones{
+  width: 10vw;
+  height: 10vw;
+}
+/* .value__lugar{
+  width: 25vw;
+  height: 20vw;
+} */
+
 /*cards*/
 .wrapper {
   display: flex;
