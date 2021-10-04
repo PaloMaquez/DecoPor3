@@ -815,7 +815,7 @@ ul{
   }
   /*-----SERVICIOS-----*/
   .main__servicios{
-    padding: 25px 8vw
+    padding: 15px 8vw
   }
   .main__servicios p{
     line-height: 32px;
@@ -950,11 +950,11 @@ margin-top: -50%;
   width: 60%;
 }
 .service__sub{
-  font-family: var(--text-font);
+  font-family: var(--title-font);
   font-size: var(--subtitle-desktop-size);
   margin-left: 30%;
   margin-top: 4%;
-  margin-bottom: 4%;
+  margin-bottom: 1%;
 }
 #left_img{
   margin-left: 50%;
@@ -962,9 +962,7 @@ margin-top: -50%;
 .left_p{
   font-family: var(--text-font);
   font-size: var(--text-desktop-size);
-  width: 28.75vw;
-  height: 5.10vw;
-  top: 2065px;
+  text-align:start;
   line-height: 32px;
 }
 .main__servicios span{
@@ -1009,6 +1007,127 @@ margin-top: -50%;
   padding: 12% 8%;
   height: 96%;
 }
+.basic-info2{
+  background-color: var(--light-blue);
+  padding: 12% 8%;
+  height: 96%;
+}
+.h3-2{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5vw!important;
+  background-color: var(--light-blue);
+}
+.basic-info3{
+  background-color: var(--terracotta-100);
+  padding: 12% 8%;
+  height: 96%;
+}
+.h3-3{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5vw!important;
+  background-color: var(--terracotta-100);
+}
+.basic-info4{
+  background-color: var(--green-100);
+  padding: 12% 8%;
+  height: 96%;
+}
+.h3-4{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5vw!important;
+  background-color: var(--green-100);
+}
+.basic-info5{
+  background-color: var(--green-100);
+  padding: 12% 8%;
+  height: 96%;
+}
+.h3-5{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5vw!important;
+  background-color: var(--green-100);
+}
+.basic-info6{
+  background-color: var(--green-200);
+  padding: 12% 8%;
+  height: 96%;
+}
+.h3-6{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5vw!important;
+  background-color: var(--green-200);
+}
+.basic-info7{
+  background-color: var(--terracotta-200);
+  padding: 12% 8%;
+  height: 96%;
+}
+.h3-7{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5vw!important;
+  background-color: var(--terracotta-200);
+}
+.basic-info8{
+  background-color: var(--terracotta-300);
+  padding: 12% 8%;
+  height: 96%;
+}
+.h3-8{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5vw!important;
+  background-color: var(--terracotta-300);
+}
+.basic-info9{
+  background-color: var(--green-200);
+  padding: 12% 8%;
+  height: 96%;
+}
+.h3-9{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5vw!important;
+  background-color: var(--green-200);
+}
+.basic-info10{
+  background-color: var(--light-blue);
+  padding: 12% 8%;
+  height: 96%;
+}
+.h3-10{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5vw!important;
+  background-color: var(--light-blue);
+}
+.basic-info11{
+  background-color: var(--terracotta-500);
+  padding: 12% 8%;
+  height: 96%;
+}
+.h3-11{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5vw!important;
+  background-color: var(--terracotta-500);
+}
+.basic-info12{
+  background-color: var(--green-200);
+  padding: 12% 8%;
+  height: 96%;
+}
+.h3-12{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5vw!important;
+  background-color: var(--green-200);
+}
+.basic-info13{
+  background-color: var(--green-200);
+  padding: 12% 8%;
+  height: 96%;
+}
+.h3-13{
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5vw!important;
+  background-color: var(--green-200);
+}
+
 .col-7, .col-5{
   height: 100%;
 }
@@ -1033,7 +1152,7 @@ margin-top: -50%;
 .h3{
   padding: 0.5rem 1.5rem;
   font-size: 1.5vw!important;
-  background-color: var(--terracotta-500);
+  background-color: transparent;
 }
 .p{
   font-size: 0.9vw;
@@ -1043,7 +1162,7 @@ margin-top: -50%;
   margin-bottom: 0!important;
   padding-bottom: 0;
   padding-top: 0.6rem;
-  background-color: var(--terracotta-300);
+  background-color: transparent;
   text-align: center;
 }
 .no-pad{
