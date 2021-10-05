@@ -485,6 +485,42 @@ margin: 0 20vw 10vh 0;
     margin-top: -10%;
     
   }
+  .curso_emprende h6{
+    font-family: var(--text-font);
+    font-size: var(--subtitle-mobile-size);
+    margin-left: 15%;
+    margin-top: 1%;
+  }
+
+  .product-price-btn-emprende {
+  
+    width: 17.03125vw;
+    margin-top: 1%; /*para ajustar la distancia entre texto y boton*/
+    position: relative;
+  }
+
+  .product-price-btn-emprende button {
+    display: inline-block;
+    height: 2.60vw;
+    width: 9.16vw;
+    margin: 0 40px 0 75px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 20px;
+    font-family:var(--title-font);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color:var(--green-200);
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .product-price-btn-emprende button:hover {
+    background-color: var(--yellow-200);
+  }
   .socias__igram img{
     margin: 1vw;
   }
@@ -1344,6 +1380,13 @@ margin-top: -50%;
 .main__servicios span{
   color:var(--terracotta-500);
   font-weight: bolder;
+}
+.ases_express{
+  flex-direction: row!important;
+}
+.ases_express p{
+  font-size: var(--text-desktop-size);
+  
 }
 /*----- MODAL -----*/
 
