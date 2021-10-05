@@ -354,7 +354,10 @@ margin: 0 20vw 10vh 0;
 }
 
 .us__info-title{
-  font-size: 50px;
+  font-size: var(--subtitle-desktop-size);
+  font-family: var(--title-font);
+  color: var(--green-200);
+  font-weight: bolder;
   text-align: center;
   margin-bottom: 10vw;
 }
@@ -386,6 +389,11 @@ margin: 0 20vw 10vh 0;
 }
 .nosotras__info-text{
   width: 18vw;
+  line-height: 2em;
+}
+.nosotras__info-text span{
+  font-size: var(--subtitle-tablet-size);
+  color: var(--terracotta-400);
 }
 .nosotras__img {
   width: 478px;
@@ -436,32 +444,90 @@ margin: 0 20vw 10vh 0;
   .socias__sub-morgan{
     font-family: var(--title-font);
     font-size: var(--subtitle-desktop-size);
-    width: 362px;
-    height: 47px;
-    left: 762px;
-    top: 914px;
-    line-height: 64px;
+    text-align: center;
+    margin-bottom: 32vw;
+    text-align: center;
   }
   .socias__info{
     font-family: var(--title-font);
     font-size: var(--text-desktop-size);
     width: 615px;
-    height: 345px;
+    height: 600px;
     line-height: 32px;
     margin-left: 15%;
   }
-  .socias__info-emprende{
+  .socias__info span{
+    font-family: var(--title-font);
+    font-size: var(--subtitle-desktop-size);
+    font-style: italic;
+    color: var(--green-200);
+    margin-top: auto;
+    text-align: center;
+    text-align: center;
+  }
+  .socias__info-emprende {
     font-family: var(--title-font);
     font-size: var(--text-desktop-size);
-    width: 457px;
-    height: 345px;
-    left: 184px;
-    top: 2112px;
-    line-height: 28px;
+    line-height: 32px;
+    margin-left: 15%;
   }
-  .socias__igram{
+  .socias__info-emprende span{
+    font-family: var(--title-font);
+    font-size: var(--subtitle-desktop-size);
+    font-style: italic;
+    color: var(--green-200);
+    margin-top: auto;
+    text-align: center;
+    text-align: center;
+  }
+  .socias__igram-emprende p{
     font-family: var(--text-font);
     font-size: var(--subtitle-mobile-size);
+    margin-left: 15%;
+    margin-top: -10%;
+  }
+  .socias__igram p{
+    font-family: var(--text-font);
+    font-size: var(--subtitle-mobile-size);
+    margin-left: 52%;
+    margin-top: -10%;
+    
+  }
+  .curso_emprende h6{
+    font-family: var(--text-font);
+    font-size: var(--subtitle-mobile-size);
+    margin-left: 15%;
+    margin-top: 1%;
+  }
+
+  .product-price-btn-emprende {
+  
+    width: 17.03125vw;
+    margin-top: 1%; /*para ajustar la distancia entre texto y boton*/
+    position: relative;
+  }
+
+  .product-price-btn-emprende button {
+    display: inline-block;
+    height: 2.60vw;
+    width: 9.16vw;
+    margin: 0 40px 0 75px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 20px;
+    font-family:var(--title-font);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color:var(--green-200);
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .product-price-btn-emprende button:hover {
+    background-color: var(--yellow-200);
   }
   .socias__igram img{
     margin: 1vw;
@@ -501,11 +567,8 @@ margin: 0 20vw 10vh 0;
   .socias__sub-emprende{
     font-family: var(--title-font);
     font-size: var(--subtitle-desktop-size);
-    width: 362px;
-    height: 47px;
-    left: 184px;
-    top: 1996px;
-    line-height: 64px;
+    font-style: italic;
+    color: var(--green-200);
   }
   .socias__igram-emprende{
     font-family: var(--text-font);
@@ -735,8 +798,8 @@ ul{
   }  
   .wrapper {
   display: flex;
-  height: 420px;
-  width: 654px;
+  height: 21.875vw;
+  width: 34.0625vw;
   margin: 50px auto;
   border-radius: 10px 10px 10px 10px;
   -webkit-box-shadow: 10px 24px 42px 10px rgba(0, 0, 0, 0.15);
@@ -746,8 +809,8 @@ ul{
 
 .product-img {
   float: left;
-  height:420px;
-  width: 327px;
+  height:21.875vw;
+  width: 17.03125vw;
   object-fit: cover;
 }
 
@@ -758,19 +821,19 @@ ul{
 
 .product-info {
   float: left;
-  height: 420px;
-  width: 327px;
+  height:21.875vw;
+  width: 17.03125vw;
   border-radius: 0 7px 10px 7px;
   background-color: #ffffff;}
 
 .product-text {
-  height: 300px;
-  width: 327px;
+  height: 15.625vw;
+  width: 17.03125vw;
 }
 .product-text h2 {
-  margin: 0 0 0 38px;
-  padding-top: 52px;
-  font-size: 30px;
+  margin: 0 0 0 1.97vw;
+  padding-top: 2.70vw;
+  font-size: 1.5625vw;
   margin-bottom: 5%;
   color: #474747;
 }
@@ -802,15 +865,15 @@ ul{
 }
 
 .product-price-btn {
-  height: 103px;
-  width: 327px;
-  margin-top: 35px; /*para ajustar la distancia entre texto y boton*/
+  height: 5.364583333333333vw;
+  width: 17.03125vw;
+  margin-top: 1.8229166666666667vw; /*para ajustar la distancia entre texto y boton*/
   position: relative;
 }
 .product-price-btn button {
   display: inline-block;
-  height: 50px;
-  width: 176px;
+  height: 2.60vw;
+  width: 9.16vw;
   margin: 0 40px 0 75px;
   box-sizing: border-box;
   border: transparent;
@@ -1326,6 +1389,13 @@ margin-top: -50%;
   color:var(--terracotta-500);
   font-weight: bolder;
 }
+.ases_express{
+  flex-direction: row!important;
+}
+.ases_express p{
+  font-size: var(--text-desktop-size);
+  
+}
 /*----- MODAL -----*/
 
 .modal-dialog{
@@ -1355,29 +1425,29 @@ margin-top: -50%;
 .basic-info, .more-info{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
 
 }
 .basic-info{
   background-color: var(--terracotta-500);
-  padding: 12% 8%;
-  height: 96%;
+  padding: 5% 8%;
+  height: 101.5%;
 }
 .basic-info2{
   background-color: var(--light-blue);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-2{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--light-blue);
 }
 .basic-info3{
   background-color: var(--terracotta-100);
   padding: 12% 8%;
-  height: 96%;
+  height: 100%;
 }
 .h3-3{
   padding: 0.5rem 1.5rem;
@@ -1387,97 +1457,97 @@ margin-top: -50%;
 .basic-info4{
   background-color: var(--green-100);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-4{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--green-100);
 }
 .basic-info5{
   background-color: var(--green-100);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-5{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--green-100);
 }
 .basic-info6{
   background-color: var(--green-200);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-6{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--green-200);
 }
 .basic-info7{
   background-color: var(--terracotta-200);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-7{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--terracotta-200);
 }
 .basic-info8{
   background-color: var(--terracotta-300);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-8{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--terracotta-300);
 }
 .basic-info9{
   background-color: var(--green-200);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-9{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--green-200);
 }
 .basic-info10{
   background-color: var(--light-blue);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-10{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--light-blue);
 }
 .basic-info11{
   background-color: var(--terracotta-500);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-11{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--terracotta-500);
 }
 .basic-info12{
   background-color: var(--green-200);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-12{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--green-200);
 }
 .basic-info13{
   background-color: var(--green-200);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-13{
   padding: 0.5rem 1.5rem;
@@ -1488,20 +1558,20 @@ margin-top: -50%;
 .col-7, .col-5{
   height: 100%;
 }
-/* .more-info{
-  padding-top: 9%;
-} */
+.more-info{
+  padding-top: -1%;
+}
 .footer-info{
   width: 100%;
 }
 .img-modal{
-  width: 24vw;
-  height: 24vw;
+  width: 20vw;
+  height: 20vw;
   object-fit: cover;
   border-radius: 50%;
 }
 .course-title{
-  font-size: 3vw!important;
+  font-size: 2.5vw!important;
 }
 .h6{
   font-size: 16px;
@@ -1509,7 +1579,7 @@ margin-top: -50%;
 .h3{
   padding: 0.5rem 1.5rem;
   font-size: 1.5vw!important;
-  background-color: var(--terracotta-500);
+  background-color: transparent;
 }
 .p{
   font-size: 0.9vw;
@@ -1521,6 +1591,10 @@ margin-top: -50%;
   padding-top: 0.6rem;
   background-color: transparent;
   text-align: center;
+  color: black;
+}
+.diff-height:hover{
+  color: white;
 }
 .no-pad{
   padding: 0;
@@ -1540,6 +1614,7 @@ margin-top: -50%;
 .height-adjust{
   height: 3.5%;
 }
+
 
 @media screen and (max-width: 768px){
   .modal-content {
