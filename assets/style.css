@@ -735,8 +735,8 @@ ul{
   }  
   .wrapper {
   display: flex;
-  height: 420px;
-  width: 654px;
+  height: 21.875vw;
+  width: 34.0625vw;
   margin: 50px auto;
   border-radius: 10px 10px 10px 10px;
   -webkit-box-shadow: 10px 24px 42px 10px rgba(0, 0, 0, 0.15);
@@ -746,8 +746,8 @@ ul{
 
 .product-img {
   float: left;
-  height:420px;
-  width: 327px;
+  height:21.875vw;
+  width: 17.03125vw;
   object-fit: cover;
 }
 
@@ -1355,29 +1355,29 @@ margin-top: -50%;
 .basic-info, .more-info{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
 
 }
 .basic-info{
   background-color: var(--terracotta-500);
-  padding: 12% 8%;
-  height: 96%;
+  padding: 5% 8%;
+  height: 101.5%;
 }
 .basic-info2{
   background-color: var(--light-blue);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-2{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--light-blue);
 }
 .basic-info3{
   background-color: var(--terracotta-100);
   padding: 12% 8%;
-  height: 96%;
+  height: 100%;
 }
 .h3-3{
   padding: 0.5rem 1.5rem;
@@ -1387,97 +1387,97 @@ margin-top: -50%;
 .basic-info4{
   background-color: var(--green-100);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-4{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--green-100);
 }
 .basic-info5{
   background-color: var(--green-100);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-5{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--green-100);
 }
 .basic-info6{
   background-color: var(--green-200);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-6{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--green-200);
 }
 .basic-info7{
   background-color: var(--terracotta-200);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-7{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--terracotta-200);
 }
 .basic-info8{
   background-color: var(--terracotta-300);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-8{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--terracotta-300);
 }
 .basic-info9{
   background-color: var(--green-200);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-9{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--green-200);
 }
 .basic-info10{
   background-color: var(--light-blue);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-10{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--light-blue);
 }
 .basic-info11{
   background-color: var(--terracotta-500);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-11{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--terracotta-500);
 }
 .basic-info12{
   background-color: var(--green-200);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-12{
-  padding: 0.5rem 1.5rem;
+  padding: 0.3rem 1.5rem;
   font-size: 1.5vw!important;
   background-color: var(--green-200);
 }
 .basic-info13{
   background-color: var(--green-200);
   padding: 12% 8%;
-  height: 96%;
+  height: 101.4%;
 }
 .h3-13{
   padding: 0.5rem 1.5rem;
@@ -1488,20 +1488,20 @@ margin-top: -50%;
 .col-7, .col-5{
   height: 100%;
 }
-/* .more-info{
-  padding-top: 9%;
-} */
+.more-info{
+  padding-top: -1%;
+}
 .footer-info{
   width: 100%;
 }
 .img-modal{
-  width: 24vw;
-  height: 24vw;
+  width: 20vw;
+  height: 20vw;
   object-fit: cover;
   border-radius: 50%;
 }
 .course-title{
-  font-size: 3vw!important;
+  font-size: 2.5vw!important;
 }
 .h6{
   font-size: 16px;
@@ -1509,7 +1509,7 @@ margin-top: -50%;
 .h3{
   padding: 0.5rem 1.5rem;
   font-size: 1.5vw!important;
-  background-color: var(--terracotta-500);
+  background-color: transparent;
 }
 .p{
   font-size: 0.9vw;
@@ -1521,6 +1521,10 @@ margin-top: -50%;
   padding-top: 0.6rem;
   background-color: transparent;
   text-align: center;
+  color: black;
+}
+.diff-height:hover{
+  color: white;
 }
 .no-pad{
   padding: 0;
@@ -1540,6 +1544,7 @@ margin-top: -50%;
 .height-adjust{
   height: 3.5%;
 }
+
 
 @media screen and (max-width: 768px){
   .modal-content {
