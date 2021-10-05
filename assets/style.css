@@ -75,7 +75,7 @@ p{
 }
 
 .splash__img-container{
-    width: 60vw;
+    width: 55vw;
     /* background-color: #475E4C; */
 }
 
@@ -92,16 +92,14 @@ p{
     font-family: var(--title-font);
     font-size:var(--title-desktop-size);
     line-height: 1em;
-    margin-left: 0;
+    margin-bottom: 5vw;
     shape-outside: circle();
 }
 .subtext_index{
   line-height: 1.7em;
 }
 .index_btn {
-  height: 103px;
-  width: 327px;
-  margin-top: 10px; /*para ajustar la distancia entre texto y boton*/
+  margin-top: 5vw;
   position: relative;
 }
 .index_btn button {
@@ -192,6 +190,15 @@ p{
   .value__icon{
     width: 40vw;
     height: 40vw;
+  }
+  .splash__text-container{
+    width: 90vw;
+  }
+  .splash__text-container--inner {
+    margin-top: 20vw;
+  }
+  .splash__text {
+    text-align: center;
   }
   
 }
