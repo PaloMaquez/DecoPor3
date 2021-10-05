@@ -148,6 +148,7 @@ p{
   grid-column: 3 / 5;
   grid-row: 1 / 5;
   margin-left: 10vw;
+  z-index: 1;
 } 
 .img-round{
   width: 25vw;
@@ -165,6 +166,7 @@ p{
     padding-top: 10vw;
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 15vw;
 }
 
 .value{
@@ -191,6 +193,9 @@ p{
     width: 40vw;
     height: 40vw;
   }
+  .splash{
+    height: 100vh;
+  }
   .splash__text-container{
     width: 90vw;
   }
@@ -215,10 +220,7 @@ p{
     text-align: justify;
   }
   .index_btn {
-    height: 103px;
-    width: 327px;
-    margin-top: 10px; /*para ajustar la distancia entre texto y boton*/
-    position: relative;
+    margin-top: 8vw;
   }
   .index_btn button {
     display: inline-block;
@@ -249,23 +251,21 @@ p{
     line-height: 1.3em;
     margin-left: 0;
     shape-outside: circle();
+  }
+  .subtext_index{
+    font-size: var(--text-tablet-size);
+    line-height: 1.7em;
+    text-align: justify;
+  }
 }
-.subtext_index{
-  font-size: var(--text-tablet-size);
-  line-height: 1.7em;
-  text-align: justify;
-}
-.value__icon{
-  width: 19vw;
-  height:19vw;
-  margin-bottom: 5vw;
-}
-.values{
-  padding-top: 1vw;
-  padding-bottom: 5vw;
-  display: flex;
-  justify-content: space-evenly;
-}
+@media screen and (max-width: 600px) {
+  .splash__text-container--inner {
+    margin-top: 0;
+  }
+  .values{
+    margin: 30vw 0;
+  }
+  
 }
 @media screen and (max-height: 425px) {
   .main-text{
@@ -274,23 +274,23 @@ p{
     line-height: 1.3em;
     margin-left: 0;
     shape-outside: circle();
-}
-.subtext_index{
-  font-size: var(--text-mobile-size);
-  text-align: justify;
-}
-.value__icon{
-  width: 18vw;
-  height:18vw;
-  padding-top: -5vw;
-  margin-bottom: 5vw;
-}
-.values{
-  padding-top: 5vw;
-  padding-bottom: 10vw;
-  display: flex;
-  justify-content: space-evenly;
-}
+  }
+  .subtext_index{
+    font-size: var(--text-mobile-size);
+    text-align: justify;
+  }
+  .value__icon{
+    width: 18vw;
+    height:18vw;
+    padding-top: -5vw;
+    margin-bottom: 5vw;
+  }
+  .values{
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 /*-----CARROUSEL-----*/
@@ -306,7 +306,7 @@ p{
 }
 
 .carousel-inner{
-    width: 70%!important;
+    width: 100%!important;
     margin: auto;
     height: 100%;
     display: flex;
@@ -315,10 +315,14 @@ p{
 
 .carousel-control-prev-icon{
   background-image: url('../img/icons/left-arrow.png')!important;
+  width: 1vw!important;
+  height: 1vw!important;
 }
 
 .carousel-control-next-icon{
   background-image: url('../img/icons/right-arrow\ 2.png')!important;
+  width: 1vw!important;
+  height: 1vw!important;
 }
 
 /***NOSOTRAS***/
