@@ -243,12 +243,11 @@ p{
 .value__icon{
   width: 19vw;
   height:19vw;
-  padding-top: -5vw;
   margin-bottom: 5vw;
 }
 .values{
-  padding-top: 5vw;
-  padding-bottom: 10vw;
+  padding-top: 1vw;
+  padding-bottom: 5vw;
   display: flex;
   justify-content: space-evenly;
 }
