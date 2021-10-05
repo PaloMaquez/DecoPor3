@@ -436,32 +436,54 @@ margin: 0 20vw 10vh 0;
   .socias__sub-morgan{
     font-family: var(--title-font);
     font-size: var(--subtitle-desktop-size);
-    width: 362px;
-    height: 47px;
-    left: 762px;
-    top: 914px;
-    line-height: 64px;
+    text-align: center;
+    margin-bottom: 32vw;
+    text-align: center;
   }
   .socias__info{
     font-family: var(--title-font);
     font-size: var(--text-desktop-size);
     width: 615px;
-    height: 345px;
+    height: 600px;
     line-height: 32px;
     margin-left: 15%;
   }
-  .socias__info-emprende{
+  .socias__info span{
+    font-family: var(--title-font);
+    font-size: var(--subtitle-desktop-size);
+    font-style: italic;
+    color: var(--green-200);
+    margin-top: auto;
+    text-align: center;
+    text-align: center;
+  }
+  .socias__info-emprende {
     font-family: var(--title-font);
     font-size: var(--text-desktop-size);
-    width: 457px;
-    height: 345px;
-    left: 184px;
-    top: 2112px;
-    line-height: 28px;
+    line-height: 32px;
+    margin-left: 15%;
   }
-  .socias__igram{
+  .socias__info-emprende span{
+    font-family: var(--title-font);
+    font-size: var(--subtitle-desktop-size);
+    font-style: italic;
+    color: var(--green-200);
+    margin-top: auto;
+    text-align: center;
+    text-align: center;
+  }
+  .socias__igram-emprende p{
     font-family: var(--text-font);
     font-size: var(--subtitle-mobile-size);
+    margin-left: 15%;
+    margin-top: -10%;
+  }
+  .socias__igram p{
+    font-family: var(--text-font);
+    font-size: var(--subtitle-mobile-size);
+    margin-left: 52%;
+    margin-top: -10%;
+    
   }
   .socias__igram img{
     margin: 1vw;
@@ -501,11 +523,8 @@ margin: 0 20vw 10vh 0;
   .socias__sub-emprende{
     font-family: var(--title-font);
     font-size: var(--subtitle-desktop-size);
-    width: 362px;
-    height: 47px;
-    left: 184px;
-    top: 1996px;
-    line-height: 64px;
+    font-style: italic;
+    color: var(--green-200);
   }
   .socias__igram-emprende{
     font-family: var(--text-font);
