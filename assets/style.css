@@ -128,7 +128,7 @@ p{
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 15vw);
-  grid-template-rows: repeat(4, 15vw);
+  grid-template-rows: repeat(3, 15vw);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   }
@@ -138,8 +138,8 @@ p{
   transform: rotate(0.5deg);
   object-fit: cover;
   grid-column: 1 / 3;
-    grid-row: 1 / 3;
-    margin: 3vw 0 0 8vw;
+  grid-row: 1 / 3;
+  margin: 3vw 0 0 12vw;
 }
 .img-oval{
   width: 16vw;
@@ -158,8 +158,9 @@ p{
   transform: rotate(0.7deg);
   object-fit: cover;
   grid-column: 2 / 4;
-  grid-row: 3 / 5;
-  margin-left: 8vw;
+  grid-row: 2 / 3;
+  margin-left: 10vw;
+  margin-top: 12vh;
 
 }
 .values{
