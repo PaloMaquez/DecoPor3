@@ -758,19 +758,19 @@ ul{
 
 .product-info {
   float: left;
-  height: 420px;
-  width: 327px;
+  height:21.875vw;
+  width: 17.03125vw;
   border-radius: 0 7px 10px 7px;
   background-color: #ffffff;}
 
 .product-text {
-  height: 300px;
-  width: 327px;
+  height: 15.625vw;
+  width: 17.03125vw;
 }
 .product-text h2 {
-  margin: 0 0 0 38px;
-  padding-top: 52px;
-  font-size: 30px;
+  margin: 0 0 0 1.97vw;
+  padding-top: 2.70vw;
+  font-size: 1.5625vw;
   margin-bottom: 5%;
   color: #474747;
 }
@@ -802,15 +802,15 @@ ul{
 }
 
 .product-price-btn {
-  height: 103px;
-  width: 327px;
-  margin-top: 35px; /*para ajustar la distancia entre texto y boton*/
+  height: 5.364583333333333vw;
+  width: 17.03125vw;
+  margin-top: 1.8229166666666667vw; /*para ajustar la distancia entre texto y boton*/
   position: relative;
 }
 .product-price-btn button {
   display: inline-block;
-  height: 50px;
-  width: 176px;
+  height: 2.60vw;
+  width: 9.16vw;
   margin: 0 40px 0 75px;
   box-sizing: border-box;
   border: transparent;
