@@ -634,6 +634,66 @@ ul{
   align-items: center;
   justify-content: space-around;
 }   
+@media screen and (max-width: 992px) {
+  .h1__cursos{
+    margin-left: 39%;
+    margin-top: 9%;
+  }
+  .cursos_info{
+    padding: 15px 5vw;
+    font-size: var(--text-desktop-size);
+  }
+  .value__incriociones{
+    width: 13vw;
+    height: 13vw;
+  }
+  .value__lugar{
+    width: 14vw;
+    height: 14vw;
+  }
+  .values_cursos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }   
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-height: 500px) and (min-width: 992px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 576px) {
+
+}
+@media screen and (max-height: 500px) and (min-width: 992px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 576px) {
+
+}
+@media screen and (max-width: 576px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
 
 /*cards*/
 .wrapper {
@@ -1152,7 +1212,7 @@ margin-top: -50%;
 .h3{
   padding: 0.5rem 1.5rem;
   font-size: 1.5vw!important;
-  background-color: transparent;
+  background-color: var(--terracotta-500);
 }
 .p{
   font-size: 0.9vw;
