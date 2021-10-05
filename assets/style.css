@@ -167,7 +167,7 @@ p{
     padding-top: 10vw;
     display: flex;
     justify-content: space-evenly;
-  }
+}
 
 .value{
     /* background-color:var(--green-100); */
@@ -183,10 +183,17 @@ p{
 }
 
 .value__icon{
-    width: 14vw;
-    height:14vw;
+    width: 20vw;
+    height: 20vw;
     margin-top: -98%;
     margin-bottom: 5vw;
+}
+@media screen and (max-width: 768px) {
+  .value__icon{
+    width: 40vw;
+    height: 40vw;
+  }
+  
 }
 @media screen and (max-height: 768px) {
   .main-text{
@@ -194,39 +201,39 @@ p{
     font-size:var(--title-tablet-size);
     line-height: 1.3em;
     margin-left: 0;
-}
-.subtext_index{
-  font-size: var(--text-tablet-size);
-  line-height: 1.7em;
-  text-align: justify;
-}
-.index_btn {
-  height: 103px;
-  width: 327px;
-  margin-top: 10px; /*para ajustar la distancia entre texto y boton*/
-  position: relative;
-}
-.index_btn button {
-  display: inline-block;
-  height: 50px;
-  width: 176px;
-  margin: 0 40px 0 14px;
-  box-sizing: border-box;
-  border: transparent;
-  border-radius: 20px;
-  font-family:var(--title-font);
-  font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
-  color: #ffffff;
-  background-color:var(--green-200);
-  cursor: pointer;
-  outline: none;
-}
-.index_btn button:hover {
-  background-color: var(--yellow-200);
-}
+  }
+  .subtext_index{
+    font-size: var(--text-tablet-size);
+    line-height: 1.7em;
+    text-align: justify;
+  }
+  .index_btn {
+    height: 103px;
+    width: 327px;
+    margin-top: 10px; /*para ajustar la distancia entre texto y boton*/
+    position: relative;
+  }
+  .index_btn button {
+    display: inline-block;
+    height: 50px;
+    width: 176px;
+    margin: 0 40px 0 14px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 20px;
+    font-family:var(--title-font);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: #ffffff;
+    background-color:var(--green-200);
+    cursor: pointer;
+    outline: none;
+  }
+  .index_btn button:hover {
+    background-color: var(--yellow-200);
+  }
 }
 @media screen and (max-height: 900px) {
   .main-text{
