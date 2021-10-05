@@ -354,7 +354,10 @@ margin: 0 20vw 10vh 0;
 }
 
 .us__info-title{
-  font-size: 50px;
+  font-size: var(--subtitle-desktop-size);
+  font-family: var(--title-font);
+  color: var(--green-200);
+  font-weight: bolder;
   text-align: center;
   margin-bottom: 10vw;
 }
@@ -386,6 +389,11 @@ margin: 0 20vw 10vh 0;
 }
 .nosotras__info-text{
   width: 18vw;
+  line-height: 2em;
+}
+.nosotras__info-text span{
+  font-size: var(--subtitle-tablet-size);
+  color: var(--terracotta-400);
 }
 .nosotras__img {
   width: 478px;
