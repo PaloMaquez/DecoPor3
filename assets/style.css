@@ -929,9 +929,9 @@ ul{
   /*cards*/
   .wrapper {
   display: flex;
-  height: 120px;
-  width: 354px;
-  margin: 50px auto;
+  height: 6.25vw;
+  width: 18.4375vw;
+  margin: 2.60vw auto;
   border-radius: 10px 10px 10px 10px;
   -webkit-box-shadow: 10px 24px 42px 10px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 10px 24px 42px 10px rgba(0, 0, 0, 0.15);
@@ -940,8 +940,8 @@ ul{
 
 .product-img {
   float: left;
-  height:420px;
-  width: 327px;
+  height:21.875vw;
+  width: 17.03125vw;
   object-fit: cover;
 }
 
@@ -952,14 +952,14 @@ ul{
 
 .product-info {
   float: left;
-  height: 420px;
-  width: 327px;
+  height:21.875vw;
+  width: 17.03125vw;
   border-radius: 0 7px 10px 7px;
   background-color: #ffffff;}
 
 .product-text {
-  height: 300px;
-  width: 327px;
+  height:  15.625vw;
+  width: 17.03125vw;
 }
 .product-text h2 {
   margin: 0 0 0 38px;
