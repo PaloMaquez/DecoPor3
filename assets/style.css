@@ -93,7 +93,6 @@ p{
     font-size:var(--title-desktop-size);
     line-height: 1em;
     margin-bottom: 5vw;
-    shape-outside: circle();
 }
 .subtext_index{
   line-height: 1.7em;
@@ -390,6 +389,7 @@ margin: 0 20vw 10vh 0;
 .nosotras__info-text{
   width: 18vw;
   line-height: 2em;
+  margin-top: -5%;
 }
 .nosotras__info-text span{
   font-size: var(--subtitle-tablet-size);
@@ -744,6 +744,7 @@ ul{
   font-family:var(--title-font);
   font-size: var(--title-desktop-size);
   color: var(--terracotta-500);
+  font-weight: bolder;
   margin-left: 45%;
   margin-top: 5%;
 }
@@ -1362,8 +1363,8 @@ margin-top: -50%;
   margin-bottom: -50%;
 }
 .servicios__img{
-  width: 600px;
-  height:450px ;
+  width: 31vw;
+  height:23.43vw ;
   object-fit: cover;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -1377,7 +1378,7 @@ margin-top: -50%;
   margin-bottom: 1%;
 }
 #left_img{
-  margin-left: 50%;
+  margin-left: 40vw;
 }
 .left_p{
   font-family: var(--text-font);
@@ -1389,7 +1390,7 @@ margin-top: -50%;
   color:var(--terracotta-500);
   font-weight: bolder;
 }
-.ases_express{
+.ases_express {
   flex-direction: row!important;
 }
 .ases_express p{
