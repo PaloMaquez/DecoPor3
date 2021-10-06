@@ -693,11 +693,11 @@ ul{
 	content: '';
 	position: absolute;
 	left:0;
-	bottom: -0.65vw;
+	bottom: -10px;
 	background-color: var(--terracotta-500);
-	height:  0.13020833333333334vw;
+	height: 2px;
 	box-sizing: border-box;
-	width: 3.2552083333333335vw;
+	width: 50px;
 }
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
@@ -1674,31 +1674,79 @@ margin-top: -50%;
   }
 }
 /*-----MEDIA QUERYS HOME-----*/
-@media screen and (max-width: 1250px) {
-  .main-text{
+@media screen and (max-width: 1250px) 
+{
+  .main-text
+  {
     font-size:var(--title-tablet-size);
     font-family: var(--title-font);
     height: 50vh;
     line-height: 1.3em;
     margin-bottom: 5vw;
-}
-  .subtext_index{
+  }
+  .subtext_index
+  {
     line-height: 1.7em;
     font-size:var(--text-tablet-size);
   }
-  .index_btn {
+  .index_btn 
+  {
     margin-top: 3vw;
   }
-  .footer p {
+  .footer p 
+  {
     color: #e2dddd;
     margin-top: 1%;
     margin-left: 60%;
     font-size: var(--text-tablet-size);
-}
-.footer-col h4{
-	font-size: 16px;
-  margin-top: 5%;
-	position: relative;
+  }
+  .footer-col h4
+  {
+    font-size: 16px;
+    margin-top: 5%;
+    position: relative;
+    
+  }
+    .jumbotron{
+    margin-bottom: 0;
+    background-image: url(../img/servicios/livingServicios.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 90vh;
+    min-height: 400px;
+    color: black;
+    padding: 10rem;
+    text-align: center;
+  }
+  .jumbotron h1 {
+    font-family:var(--title-font);
+    font-size: 150px;
+    margin-top: 6vw;
+  }
   
-}
+  .jumbotron p {
+    font-family:var(--title-font);
+    font-size: var(--text-desktop-size);
+    padding-bottom: 3rem;
+    margin-top: -2.5rem;
+  }
+  .above-scroll{
+    font-family:var(--title-font);
+    font-size: var(--text-tablet-size);
+  }
+  .icon-scroll,
+  .icon-scroll:before {
+    position: absolute;
+    left: 50.8%;
+  }
+  .icon-scroll
+  {
+      width: 40px;
+      height: 70px;
+      margin-left: -20px;
+      top: 90%;
+      margin-top: -35px;
+      box-shadow: inset 0 0 0 2.5px black;
+      border-radius: 25px;
+  }
 }
