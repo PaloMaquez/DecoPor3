@@ -375,12 +375,12 @@ margin: 0 20vw 10vh 0;
   position: absolute;
   width: 459px;
   height: 101px;
-  margin-left: 35%;
+  margin-left: 27%;
   margin-top: -10%;
   font-family:var(--title-font);
   font-size: 100px;
   line-height: 133px;
-  /* text-align: center; */
+  text-align: center;
   z-index: 1;
 }
 .nosotras__info{
@@ -745,7 +745,7 @@ ul{
   font-size: var(--title-desktop-size);
   color: var(--terracotta-500);
   font-weight: bolder;
-  margin-left: 45%;
+  text-align: center;
   margin-top: 5%;
 }
 .cursos_info{
