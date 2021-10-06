@@ -47,9 +47,21 @@ p{
 
 .navbar{
     font-family:var(--text-font);
-    font-size: 21px;
-    margin-right: 2%;
-    letter-spacing: 2.5px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #191919;
+    color: var(--green-300);
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover
+  {
+  content: attr(data-item);
+  transition: 0.5s;
+  color: var(--green-200);
+  font-weight: 100;
+  overflow: hidden;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar-light .navbar-toggler{
