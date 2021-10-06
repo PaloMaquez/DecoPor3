@@ -1241,6 +1241,7 @@ ul{
   .main__servicios p{
     line-height: 32px;
     margin-top: -11.5px;
+    text-align: justify;
   }
   .main__servicios img {
     margin-top: 5%;
@@ -1367,36 +1368,51 @@ margin-top: -50%;
   height:23.43vw ;
   object-fit: cover;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
   width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .service__sub{
   font-family: var(--title-font);
   font-size: var(--subtitle-desktop-size);
-  margin-left: 30%;
+  text-align: center;
   margin-top: 4%;
   margin-bottom: 1%;
 }
-#left_img{
-  margin-left: 40vw;
-}
+
 .left_p{
   font-family: var(--text-font);
   font-size: var(--text-desktop-size);
   text-align:start;
   line-height: 32px;
 }
+.main__servicios h3{
+  font-family: var(--title-font);
+  font-size: var(--subtitle-tablet-size);
+  text-align: center;
+  color: var(--green-200);
+  font-weight: bolder;
+}
 .main__servicios span{
   color:var(--terracotta-500);
   font-weight: bolder;
 }
-.ases_express {
-  flex-direction: row!important;
+.main__servicios h2{
+  font-family: var(--title-font);
+  font-size: var(--title-tablet-size);
+  text-align: center;
+
 }
-.ases_express p{
-  font-size: var(--text-desktop-size);
-  
+.main__servicios h5{
+  font-family: var(--title-font);
+  font-size: var(--subtitle-tablet-size);
+  text-align:left;
+  color: var(--green-200);
+  font-weight: bolder;
 }
+
 /*----- MODAL -----*/
 
 .modal-dialog{
