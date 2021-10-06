@@ -165,7 +165,7 @@ p{
     padding-top: 10vw;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 15vw;
+    margin-bottom: 8vw;
 }
 
 .value{
@@ -185,7 +185,7 @@ p{
     width: 15vw;
     height: 15vw;
     margin-top: -98%;
-    margin-bottom: 5vw;
+    margin-bottom: 4vw;
 }
 @media screen and (max-width: 768px) {
   .value__icon{
@@ -295,7 +295,7 @@ p{
 /*-----CARROUSEL-----*/
 
 .carousel__container{
-    padding-top: 5vw;
+    padding-top: 1vw;
     padding-bottom: 5vw;
 }
 
@@ -751,7 +751,7 @@ ul{
 .cursos_info{
   padding: 25px 10vw;
   font-size: var(--text-desktop-size);
-  text-align: justify;
+  text-align: start;
 }
 .cursos_info span{
   color: var(--yellow-200);
