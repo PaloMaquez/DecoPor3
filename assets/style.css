@@ -574,6 +574,9 @@ margin: 0 20vw 10vh 0;
     font-family: var(--text-font);
     font-size: var(--subtitle-mobile-size);
   }
+  .socias__igram-emprende img{
+    margin: 1vw;
+  }
   .curso-emprende p{
     font-family: var(--text-font);
     font-size: 30px;
