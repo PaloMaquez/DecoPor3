@@ -518,9 +518,7 @@ margin: 0 20vw 10vh 0;
   }
 
   .product-price-btn-emprende {
-  
     width: 17.03125vw;
-    margin-top: 1%; /*para ajustar la distancia entre texto y boton*/
   }
 
   .product-price-btn-emprende button {
@@ -1660,9 +1658,8 @@ margin-top: -50%;
   }
 }
 /*-----MEDIA QUERYS HOME-----*/
-@media screen and (max-width: 2050px) 
-{
-  .main-text{
+@media screen and (max-width: 2050px) {
+    .main-text{
     font-size:var(--subtitle-desktop-size);
     font-family: var(--title-font);
     height: 50vh;
@@ -1711,5 +1708,8 @@ margin-top: -50%;
   }
   .socias__info-emprende {
     margin-top: 5vw;
+  }
+  .cursos_info p {
+    line-height: 1.5vw;
   }
 }
