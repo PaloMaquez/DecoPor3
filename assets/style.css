@@ -23,7 +23,7 @@ font-family: 'Kaisei Decol', serif;
     /*fonts-pc (desktop & notebook)*/
     --title-desktop-size: 76px;
     --subtitle-desktop-size: 48px;
-    --text-desktop-size: 17px;
+    --text-desktop-size: 18px;
     /*fonts-tablet*/
     --title-tablet-size: 40px;
     --subtitle-tablet-size: 25px;
@@ -101,14 +101,15 @@ p{
 .main-text{
     font-family: var(--title-font);
     font-size:var(--title-desktop-size);
-    line-height: 1em;
-    margin-bottom: 5vw;
+    margin-top: 2vw;
+    line-height: 4.5vw;
+    margin-bottom: 4vw;
 }
 .subtext_index{
   line-height: 1.7em;
 }
 .index_btn {
-  margin-top: 5vw;
+  margin-top: 2.5vw;
   position: relative;
 }
 .index_btn button {
@@ -432,13 +433,11 @@ margin: 0 20vw 10vh 0;
 .socias__title{
   font-family: var(--title-font);
   font-size: var(--title-desktop-size);
-  margin-left: 41%;
-  width: 592px;
-  height: 172px;
-  left: 614px;
-  top: 275px;
+  text-align: center;
+  height: 9vw;
+  top: 15vw;
   font-size: 96px;
-  line-height: 130px;
+  line-height:  7vw;
 }
 
 .socias div{
@@ -461,9 +460,9 @@ margin: 0 20vw 10vh 0;
   .socias__info{
     font-family: var(--title-font);
     font-size: var(--text-desktop-size);
-    width: 615px;
-    height: 600px;
-    line-height: 32px;
+    width: 32.03125vw;
+    height:  31.25vw;
+    line-height: 1.6666666666666667vw;
     margin-left: 15%;
   }
   .socias__info span{
@@ -473,13 +472,12 @@ margin: 0 20vw 10vh 0;
     color: var(--green-200);
     margin-top: auto;
     text-align: center;
-    text-align: center;
   }
   #box-shadow_emprende{
     border-radius: 10px 10px 10px 10px;
-    -webkit-box-shadow: 10px 24px 42px 10px rgba(96, 97, 95, 0.15);
-    -moz-box-shadow: 10px 24px 42px 10px rgba(96, 97, 95, 0.15);
-    box-shadow: 10px 24px 42px 10px rgba(96, 97, 95, 0.15);
+    -webkit-box-shadow: 10px 24px 42px 10px rgba(139, 139, 139, 0.15);
+    -moz-box-shadow: 10px 24px 42px 10px rgba(139, 139, 139, 0.15);
+    box-shadow: 10px 24px 42px 10px rgba(139, 139, 139, 0.15);
     margin-top: 7vw;
     width: 40%;
   }
@@ -507,18 +505,17 @@ margin: 0 20vw 10vh 0;
   .socias__igram p{
     font-family: var(--text-font);
     font-size: var(--subtitle-mobile-size);
-    margin-left: 15%;
+    margin-left: 52%;
     margin-top: -10%;
   }
   .curso_emprende h6{
     font-family: var(--text-font);
     font-size: var(--subtitle-mobile-size);
     margin-left: 15%;
-    margin-top: 1%;
   }
 
   .product-price-btn-emprende {
-    width: 17.03125vw;
+    width: 17vw;
   }
 
   .product-price-btn-emprende button {
@@ -755,13 +752,16 @@ ul{
   font-weight: bolder;
   font-style: italic;
 }
+.cursos_info p{
+  line-height: 1.7vw;
+}
 .value__incriociones{
   width: 10vw;
   height: 10vw;
 }
 .value__lugar{
-  width: 11vw;
-  height: 11vw;
+  width: 11.3vw;
+  height: 11.3vw;
 }
 .values_cursos {
   flex-direction: column;
@@ -1258,7 +1258,7 @@ ul{
   .jumbotron h1 {
     font-family:var(--title-font);
     font-size: 150px;
-    margin-top: 9%;
+    margin-top: 9vw;
   }
   
   .jumbotron p {
@@ -1657,9 +1657,10 @@ margin-top: -50%;
     margin-bottom: 0;
   }
 }
-/*-----MEDIA QUERYS HOME-----*/
-@media screen and (max-width: 2050px) {
-    .main-text{
+/*-----MEDIA QUERYS HOME-----*/ 
+@media screen and (max-width: 1260px) 
+{
+  .main-text{
     font-size:var(--subtitle-desktop-size);
     font-family: var(--title-font);
     height: 50vh;
@@ -1687,6 +1688,18 @@ margin-top: -50%;
     position: relative;
     
   }
+  .jumbotron h1 {
+    font-family:var(--title-font);
+    font-size: 150px;
+    margin-top: 1vw;
+  }
+  
+  .jumbotron p {
+    font-family:var(--title-font);
+    font-size: var(--subtitle-tablet-size);
+    padding-bottom: 3rem;
+    margin-top: -2.5rem;
+  }
   .nosotras__info-text{
     line-height: 2em;
     margin-top: -5%;
@@ -1711,5 +1724,20 @@ margin-top: -50%;
   }
   .cursos_info p {
     line-height: 1.5vw;
+  }
+} 
+@media screen and (max-width: 991px) {
+  .splash__text-container--inner{
+    background-image: url(../img/grid/imagenInicio2.jpg);
+    object-fit: cover;
+    width: fit-content;
+    height:fit-content;
+  }
+}
+@media screen and (max-width: 415px) {
+  .splash__text-container--inner{
+    background-image: url(../img/grid/imagenInicio2ui.jpg);
+    object-fit: cover;
+
   }
 }
