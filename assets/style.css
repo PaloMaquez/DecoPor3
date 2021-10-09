@@ -110,6 +110,7 @@ p{
 }
 .index_btn {
   margin-top: 2.5vw;
+  margin-left: -5vw;
   position: relative;
 }
 .index_btn button {
@@ -230,7 +231,7 @@ p{
     text-align: justify;
   }
   .index_btn {
-    margin-top: 8vw;
+    margin-top: 5vw;
   }
   .index_btn button {
     display: inline-block;
@@ -283,7 +284,6 @@ p{
     font-size:var(--title-mobile-size);
     line-height: 1.3em;
     margin-left: 0;
-    shape-outside: circle();
   }
   .subtext_index{
     font-size: var(--text-mobile-size);
@@ -522,7 +522,7 @@ margin: 0 20vw 10vh 0;
     display: inline-block;
     height: 2.60vw;
     width: 9.16vw;
-    margin: 0 40px 0 75px;
+    margin: 0 40px 0 30vw;
     box-sizing: border-box;
     border: transparent;
     border-radius: 20px;
@@ -1259,6 +1259,7 @@ ul{
     font-family:var(--title-font);
     font-size: 150px;
     margin-top: 9vw;
+    text-align: center;
   }
   
   .jumbotron p {
@@ -1657,12 +1658,11 @@ margin-top: -50%;
     margin-bottom: 0;
   }
 }
-/*-----MEDIA QUERYS HOME-----*/ 
-@media screen and (max-width: 1260px) 
+/*-----MEDIA QUERYS-----*/ 
+@media screen and (max-width: 1245px) 
 {
   .main-text{
     font-size:var(--subtitle-desktop-size);
-    font-family: var(--title-font);
     height: 50vh;
     line-height: 1.4em;
     margin-bottom: 5vw;
@@ -1671,10 +1671,6 @@ margin-top: -50%;
   {
     line-height: 1.7em;
     font-size:var(--text-tablet-size);
-  }
-  .index_btn 
-  {
-    margin-top: 2vw;
   }
   .footer p 
   {
@@ -1725,19 +1721,58 @@ margin-top: -50%;
   .cursos_info p {
     line-height: 1.5vw;
   }
+  .wrapper {
+    display: flex;
+    height: 21.875vw;
+    width: 34.0625vw;
+    margin: 50px auto;
+  }
+  .cursos_info p{
+    line-height: 2vw;
+  }
 } 
-@media screen and (max-width: 991px) {
+
+/* @media screen and (max-width: 991px) {
   .splash__text-container--inner{
     background-image: url(../img/grid/imagenInicio2.jpg);
     object-fit: cover;
     width: fit-content;
     height:fit-content;
   }
-}
+} */
 @media screen and (max-width: 415px) {
-  .splash__text-container--inner{
+  /* .splash__text-container--inner{
     background-image: url(../img/grid/imagenInicio2ui.jpg);
     object-fit: cover;
-
+  } */
+  .main-text{
+    font-size:var(--title-mobile-size);
+    margin-top: 2vw;
+    line-height: 8.5vw;
+    margin-bottom: 1vw;
+}
+.subtext_index{
+  color: transparent;
+}
+  .index_btn {
+    margin-left: 1vw;
+  }
+  .cursos_info p{
+    line-height: 6vw;
+    text-align: left;
+  }
+    .value__incriociones{
+      width: 22vw;
+      height: 22vw;
+  }
+  .value__lugar{
+    width: 26vw;
+    height: 26vw;
+  }
+  .jumbotron h1 {
+    font-family:var(--title-font);
+    font-size: 80px;
+    margin-top: 9vw;
+    margin-left: 1%;
   }
 }
