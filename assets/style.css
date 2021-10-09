@@ -1805,4 +1805,22 @@ margin-top: -50%;
   .socias__info-emprende{
     text-align: left;
   }
+  .nosotras_main-title{
+    color: transparent;
+  }
+  .splash_green{
+    
+  }
+  .nosotras__img {
+    width: 75vw;
+    height: 80vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  .us__info-title {
+    margin-top: 5vw;
+  }
+  .nosotras__info-text{
+    margin-top: 3vw;
+  }
 }
