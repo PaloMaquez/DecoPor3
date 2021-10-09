@@ -432,11 +432,10 @@ margin: 0 20vw 10vh 0;
 
 .socias__title{
   font-family: var(--title-font);
-  font-size: var(--title-desktop-size);
+  font-size: 96px;
+  margin-top: 1vw;
   text-align: center;
   height: 9vw;
-  top: 15vw;
-  font-size: 96px;
   line-height:  7vw;
 }
 
@@ -795,8 +794,8 @@ ul{
   }  
   .wrapper {
   display: flex;
-  height: 21.875vw;
-  width: 34.0625vw;
+  height: 21.87vw;
+  width: 34.06vw;
   margin: 50px auto;
   border-radius: 10px 10px 10px 10px;
   -webkit-box-shadow: 10px 24px 42px 10px rgba(0, 0, 0, 0.15);
@@ -830,7 +829,7 @@ ul{
 .product-text h2 {
   margin: 0 0 0 1.97vw;
   padding-top: 2.70vw;
-  font-size: 1.5625vw;
+  font-size: 1.56vw;
   margin-bottom: 5%;
   color: #474747;
 }
@@ -862,9 +861,9 @@ ul{
 }
 
 .product-price-btn {
-  height: 5.364583333333333vw;
-  width: 17.03125vw;
-  margin-top: 1.8229166666666667vw; /*para ajustar la distancia entre texto y boton*/
+  height: 5.36vw;
+  width: 17vw;
+  margin-top: 1.83vw; /*para ajustar la distancia entre texto y boton*/
   position: relative;
 }
 .product-price-btn button {
@@ -1774,5 +1773,36 @@ margin-top: -50%;
     font-size: 80px;
     margin-top: 9vw;
     margin-left: 1%;
+  }
+  .socias__title{
+    font-size: var(--subtitle-desktop-size);
+    margin-top: 6vw;
+  }
+  .socias__img-socia {
+    width: 65%;
+    height: 65%;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+  }
+  .socias__info{
+    font-size: var(--subtitle-mobile-size);
+    width: fit-content;
+    line-height: 5vw;
+    text-align: left;
+  }
+  .socias__info span{
+    font-size: var(--title-tablet-size);
+  }
+  .socias__igram p{
+    text-align:left;
+    font-size: var(--subtitle-mobile-size);
+  }
+  .socias__info-emprende span{
+    font-size: var(--title-tablet-size);
+    margin-top: 10vw;
+    margin-bottom: -1vw;
+  }
+  .socias__info-emprende{
+    text-align: left;
   }
 }
