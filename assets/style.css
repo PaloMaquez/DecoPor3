@@ -514,14 +514,13 @@ margin: 0 20vw 10vh 0;
   }
 
   .product-price-btn-emprende {
-    width: 17vw;
+    text-align: center;
   }
 
   .product-price-btn-emprende button {
     display: inline-block;
     height: 2.60vw;
     width: 9.16vw;
-    margin: 0 40px 0 30vw;
     box-sizing: border-box;
     border: transparent;
     border-radius: 20px;
