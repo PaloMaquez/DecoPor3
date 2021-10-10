@@ -1408,6 +1408,16 @@ margin-top: -50%;
   font-weight: bolder;
 }
 
+@media screen and (max-width: 768px){
+  .value_service{
+    height: 50vw;
+  }
+  .value-service__icon{
+    width: 25vw!important;
+    height: auto;
+  }
+}
+
 /*----- MODAL -----*/
 
 .modal-dialog{
