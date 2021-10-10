@@ -793,8 +793,8 @@ ul{
   }  
   .wrapper {
   display: flex;
-  height: 21.87vw;
-  width: 34.06vw;
+  /* height: 21.87vw;
+  width: 34.06vw; */
   margin: 50px auto;
   border-radius: 10px 10px 10px 10px;
   -webkit-box-shadow: 10px 24px 42px 10px rgba(0, 0, 0, 0.15);
@@ -921,8 +921,9 @@ ul{
   /*cards*/
   .wrapper {
   display: flex;
-  height: 6.25vw;
-  width: 18.4375vw;
+  flex-direction: column;
+  /* height: 6.25vw;
+  width: 18.4375vw; */
   margin: 2.60vw auto;
   border-radius: 10px 10px 10px 10px;
   -webkit-box-shadow: 10px 24px 42px 10px rgba(0, 0, 0, 0.15);
@@ -938,8 +939,7 @@ ul{
 }
 
 .product-img img {
-  border-radius: 10px 0 0 10px;
-  object-fit: cover;
+  border-radius: 10px 10px 0 0!important;
 }
 
 .product-info {
@@ -1053,8 +1053,8 @@ ul{
 /*cards*/
 .wrapper {
   display: flex;
-  height: 420px;
-  width: 654px;
+  /* height: 420px;
+  width: 654px; */
   margin: 50px auto;
   border-radius: 10px 10px 10px 10px;
   -webkit-box-shadow: 10px 24px 42px 10px rgba(0, 0, 0, 0.15);
@@ -1731,8 +1731,8 @@ margin-top: -50%;
   }
   .wrapper {
     display: flex;
-    height: 21.875vw;
-    width: 34.0625vw;
+    /* height: 21.875vw;
+    width: 34.0625vw; */
     margin: 50px auto;
   }
   .cursos_info p{
