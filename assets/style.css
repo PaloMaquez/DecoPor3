@@ -73,8 +73,17 @@ p{
   padding: var(--main-padding);
 }
 .new-main-image{
+  margin-bottom: 0;
   background-image: url(../img/grid/imagenInicio2.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 90vh;
+  min-height: 400px;
+  color: black;
+  padding: 5vw;
+  text-align: center;
 }
+
 .no-margin{
   margin: 0!important;
 }
@@ -89,7 +98,9 @@ p{
 }
 @media screen and (max-width: 600px){
   .h1-mobile{
-    font-size: 55px!important;
+    font-size: var(--title-mobile-size)!important;
+    font-family: var(--text-font);
+    font-weight: bold;
   }
 }
 
