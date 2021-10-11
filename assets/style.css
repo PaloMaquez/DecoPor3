@@ -72,6 +72,21 @@ p{
 .main {
   padding: var(--main-padding);
 }
+.new-main-image{
+  background-image: url(../img/grid/imagenInicio2.jpg);
+}
+.no-margin{
+  margin: 0!important;
+}
+
+@media screen and (max-width: 1000px){
+  .main{
+    padding: 0!important;
+  }
+  .h1-mobile{
+    font-size: 80px!important;
+  }
+}
 
 /*-----SPLASH-----*/
 .splash{
@@ -112,6 +127,11 @@ p{
   margin-top: 2.5vw;
   margin-left: -5vw;
   position: relative;
+}
+.index_btn-clean{
+  margin-top: 0;
+  margin-left: 0;
+  position: unset;
 }
 .index_btn button {
   display: inline-block;
