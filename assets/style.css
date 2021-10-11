@@ -100,7 +100,6 @@ p{
   .h1-mobile{
     font-size: var(--title-mobile-size)!important;
     font-family: var(--text-font);
-    font-weight: bold;
   }
 }
 
