@@ -537,9 +537,14 @@ margin: 0 20vw 10vh 0;
     font-size: var(--subtitle-mobile-size);
     margin-left: 15%;
   }
+  .curso_emprende h6{
+    text-align: left;
+    margin-top: -7vw;
+  }
 
   .product-price-btn-emprende {
     text-align: center;
+    margin-left: -10vw;
   }
 
   .product-price-btn-emprende button {
@@ -558,6 +563,7 @@ margin: 0 20vw 10vh 0;
     background-color:var(--green-200);
     cursor: pointer;
     outline: none;
+    margin-left: -20vw;
   }
   
   .product-price-btn-emprende button:hover {
@@ -1774,10 +1780,7 @@ margin-top: -50%;
   }
 } */
 @media screen and (max-width: 415px) {
-  /* .splash__text-container--inner{
-    background-image: url(../img/grid/imagenInicio2ui.jpg);
-    object-fit: cover;
-  } */
+
   .main-text{
     font-size:var(--title-mobile-size);
     margin-top: 2vw;
@@ -1805,8 +1808,11 @@ margin-top: -50%;
   .jumbotron h1 {
     font-family:var(--title-font);
     font-size: 80px;
-    margin-top: 9vw;
-    margin-left: 1%;
+    text-align: center;
+  }
+  .jumbotron p {
+    font-size: var(--subtitle-mobile-size);
+    margin-top: 1vw;
   }
   .socias__title{
     font-size: var(--subtitle-desktop-size);
@@ -1853,5 +1859,9 @@ margin-top: -50%;
   }
   .nosotras__info-text{
     margin-top: 3vw;
+  }
+  .h1__cursos{
+    text-align: center;
+    margin-left: 1vw;
   }
 }
