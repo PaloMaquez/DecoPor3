@@ -87,6 +87,11 @@ p{
     font-size: 80px!important;
   }
 }
+@media screen and (max-width: 600px){
+  .h1-mobile{
+    font-size: 55px!important;
+  }
+}
 
 /*-----SPLASH-----*/
 .splash{
